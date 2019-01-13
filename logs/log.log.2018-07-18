@@ -1,0 +1,4 @@
+2018-07-18 12:10:46,596 +0300 [http-nio-8080-exec-2] INFO  (CategoryController.java:38) - Start get all category
+2018-07-18 12:10:46,666 +0300 [http-nio-8080-exec-2] INFO  (CategoryController.java:40) - End get all category
+2018-07-18 12:46:42,854 +0300 [http-nio-8080-exec-10] INFO  (CategoryController.java:38) - Start get all category
+2018-07-18 12:46:42,861 +0300 [http-nio-8080-exec-10] INFO  (CategoryController.java:40) - End get all category

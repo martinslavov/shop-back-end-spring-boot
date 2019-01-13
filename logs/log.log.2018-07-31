@@ -1,0 +1,40 @@
+2018-07-31 17:11:12,998 +0300 [http-nio-8080-exec-6] INFO  (CategoryController.java:50) - Start get all active category only
+2018-07-31 17:11:13,025 +0300 [http-nio-8080-exec-6] INFO  (CategoryController.java:52) - End get all active category only
+2018-07-31 17:11:14,980 +0300 [http-nio-8080-exec-5] INFO  (ProductController.java:158) - Start get all active product
+2018-07-31 17:11:14,983 +0300 [http-nio-8080-exec-5] INFO  (ProductController.java:160) - End get all active product
+2018-07-31 18:02:33,382 +0300 [http-nio-8080-exec-9] INFO  (CategoryController.java:50) - Start get all active category only
+2018-07-31 18:02:33,385 +0300 [http-nio-8080-exec-9] INFO  (CategoryController.java:52) - End get all active category only
+2018-07-31 18:04:09,862 +0300 [http-nio-8080-exec-1] INFO  (CategoryController.java:50) - Start get all active category only
+2018-07-31 18:04:09,863 +0300 [http-nio-8080-exec-1] INFO  (CategoryController.java:52) - End get all active category only
+2018-07-31 18:07:37,663 +0300 [http-nio-8080-exec-4] INFO  (CategoryController.java:50) - Start get all active category only
+2018-07-31 18:07:37,664 +0300 [http-nio-8080-exec-4] INFO  (CategoryController.java:52) - End get all active category only
+2018-07-31 18:07:48,592 +0300 [http-nio-8080-exec-2] INFO  (CategoryController.java:50) - Start get all active category only
+2018-07-31 18:07:48,593 +0300 [http-nio-8080-exec-2] INFO  (CategoryController.java:52) - End get all active category only
+2018-07-31 18:07:58,135 +0300 [http-nio-8080-exec-9] INFO  (ProductController.java:158) - Start get all active product
+2018-07-31 18:07:58,136 +0300 [http-nio-8080-exec-9] INFO  (ProductController.java:160) - End get all active product
+2018-07-31 18:08:00,840 +0300 [http-nio-8080-exec-8] INFO  (ProductController.java:172) - Start get all active product
+2018-07-31 18:08:00,841 +0300 [http-nio-8080-exec-8] INFO  (ProductController.java:174) - End get all active product
+2018-07-31 18:08:09,481 +0300 [http-nio-8080-exec-7] INFO  (ProductController.java:158) - Start get all active product
+2018-07-31 18:08:09,483 +0300 [http-nio-8080-exec-7] INFO  (ProductController.java:160) - End get all active product
+2018-07-31 18:08:11,899 +0300 [http-nio-8080-exec-4] INFO  (CategoryController.java:50) - Start get all active category only
+2018-07-31 18:08:11,901 +0300 [http-nio-8080-exec-4] INFO  (CategoryController.java:52) - End get all active category only
+2018-07-31 18:08:13,281 +0300 [http-nio-8080-exec-5] INFO  (ProductController.java:158) - Start get all active product
+2018-07-31 18:08:13,283 +0300 [http-nio-8080-exec-5] INFO  (ProductController.java:160) - End get all active product
+2018-07-31 18:08:16,282 +0300 [http-nio-8080-exec-2] INFO  (ProductController.java:172) - Start get all active product
+2018-07-31 18:08:16,285 +0300 [http-nio-8080-exec-2] INFO  (ProductController.java:174) - End get all active product
+2018-07-31 18:10:02,733 +0300 [http-nio-8080-exec-9] INFO  (ProductController.java:172) - Start get all active product
+2018-07-31 18:10:02,737 +0300 [http-nio-8080-exec-9] INFO  (ProductController.java:174) - End get all active product
+2018-07-31 18:10:25,277 +0300 [http-nio-8080-exec-10] INFO  (ProductController.java:172) - Start get all active product
+2018-07-31 18:10:25,278 +0300 [http-nio-8080-exec-10] INFO  (ProductController.java:174) - End get all active product
+2018-07-31 18:11:29,949 +0300 [http-nio-8080-exec-7] INFO  (ProductController.java:172) - Start get all active product
+2018-07-31 18:11:29,969 +0300 [http-nio-8080-exec-7] INFO  (ProductController.java:174) - End get all active product
+2018-07-31 18:11:40,300 +0300 [http-nio-8080-exec-4] INFO  (ProductController.java:172) - Start get all active product
+2018-07-31 18:11:40,308 +0300 [http-nio-8080-exec-4] INFO  (ProductController.java:174) - End get all active product
+2018-07-31 18:12:03,869 +0300 [http-nio-8080-exec-2] INFO  (ProductController.java:172) - Start get all active product
+2018-07-31 18:12:03,880 +0300 [http-nio-8080-exec-2] INFO  (ProductController.java:174) - End get all active product
+2018-07-31 18:12:08,634 +0300 [http-nio-8080-exec-1] INFO  (CategoryController.java:50) - Start get all active category only
+2018-07-31 18:12:08,636 +0300 [http-nio-8080-exec-1] INFO  (CategoryController.java:52) - End get all active category only
+2018-07-31 18:12:18,850 +0300 [http-nio-8080-exec-10] INFO  (ProductController.java:158) - Start get all active product
+2018-07-31 18:12:18,851 +0300 [http-nio-8080-exec-10] INFO  (ProductController.java:160) - End get all active product
+2018-07-31 18:12:29,544 +0300 [http-nio-8080-exec-4] INFO  (ProductController.java:172) - Start get all active product
+2018-07-31 18:12:29,546 +0300 [http-nio-8080-exec-4] INFO  (ProductController.java:174) - End get all active product

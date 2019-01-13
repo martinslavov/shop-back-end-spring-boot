@@ -1,0 +1,107 @@
+2018-07-09 00:30:07,256 +0300 [http-nio-8078-exec-2] INFO  (CategoryController.java:75) - Start get category by id
+2018-07-09 00:30:07,271 +0300 [http-nio-8078-exec-2] INFO  (CategoryController.java:77) - End get category by id
+2018-07-09 00:30:07,296 +0300 [http-nio-8078-exec-2] ERROR (CategoryController.java:80) - Can't get category by id
+2018-07-09 00:30:13,308 +0300 [http-nio-8078-exec-3] INFO  (CategoryController.java:39) - Start get all category
+2018-07-09 00:30:13,310 +0300 [http-nio-8078-exec-3] INFO  (CategoryController.java:41) - End get all category
+2018-07-09 00:30:34,989 +0300 [http-nio-8078-exec-4] INFO  (CategoryController.java:75) - Start get category by id
+2018-07-09 00:30:34,990 +0300 [http-nio-8078-exec-4] INFO  (CategoryController.java:77) - End get category by id
+2018-07-09 00:32:01,394 +0300 [http-nio-8078-exec-8] INFO  (CategoryController.java:87) - Start inserting Category
+2018-07-09 00:32:01,395 +0300 [http-nio-8078-exec-8] INFO  (CategoryController.java:89) - End inserting Category
+2018-07-09 00:32:04,900 +0300 [http-nio-8078-exec-9] INFO  (CategoryController.java:87) - Start inserting Category
+2018-07-09 00:32:04,904 +0300 [http-nio-8078-exec-9] INFO  (CategoryController.java:89) - End inserting Category
+2018-07-09 00:32:17,354 +0300 [http-nio-8078-exec-10] INFO  (CategoryController.java:75) - Start get category by id
+2018-07-09 00:32:17,355 +0300 [http-nio-8078-exec-10] INFO  (CategoryController.java:77) - End get category by id
+2018-07-09 00:32:53,429 +0300 [http-nio-8078-exec-1] INFO  (CategoryController.java:101) - Start removing category by id: 39
+2018-07-09 00:32:53,458 +0300 [http-nio-8078-exec-1] INFO  (CategoryController.java:104) - End removing category by id: 39
+2018-07-09 00:32:55,703 +0300 [http-nio-8078-exec-2] INFO  (CategoryController.java:101) - Start removing category by id: 39
+2018-07-09 00:32:55,729 +0300 [http-nio-8078-exec-2] INFO  (CategoryController.java:107) - Can't removing category by id: 39
+2018-07-09 00:33:00,220 +0300 [http-nio-8078-exec-3] INFO  (CategoryController.java:75) - Start get category by id
+2018-07-09 00:33:00,226 +0300 [http-nio-8078-exec-3] INFO  (CategoryController.java:77) - End get category by id
+2018-07-09 00:33:00,228 +0300 [http-nio-8078-exec-3] ERROR (CategoryController.java:80) - Can't get category by id
+2018-07-09 00:33:45,349 +0300 [http-nio-8078-exec-4] INFO  (ProductController.java:60) - Start inserting Product
+2018-07-09 00:33:45,350 +0300 [http-nio-8078-exec-4] INFO  (ProductController.java:62) - End inserting Product
+2018-07-09 00:33:46,936 +0300 [http-nio-8078-exec-5] INFO  (ProductController.java:60) - Start inserting Product
+2018-07-09 00:33:46,937 +0300 [http-nio-8078-exec-5] INFO  (ProductController.java:62) - End inserting Product
+2018-07-09 00:33:49,212 +0300 [http-nio-8078-exec-6] INFO  (ProductController.java:60) - Start inserting Product
+2018-07-09 00:33:49,213 +0300 [http-nio-8078-exec-6] INFO  (ProductController.java:62) - End inserting Product
+2018-07-09 00:33:57,592 +0300 [http-nio-8078-exec-7] INFO  (ProductController.java:36) - Start get all products
+2018-07-09 00:33:57,599 +0300 [http-nio-8078-exec-7] INFO  (ProductController.java:38) - End get all products
+2018-07-09 00:34:13,388 +0300 [http-nio-8078-exec-8] INFO  (ProductController.java:74) - Start removing product by id: 1
+2018-07-09 00:34:13,397 +0300 [http-nio-8078-exec-8] INFO  (ProductController.java:77) - End removing product by id: 1
+2018-07-09 00:34:15,608 +0300 [http-nio-8078-exec-9] INFO  (ProductController.java:74) - Start removing product by id: 1
+2018-07-09 00:34:15,611 +0300 [http-nio-8078-exec-9] INFO  (ProductController.java:80) - Can't removing product by id: 1
+2018-07-09 00:34:20,604 +0300 [http-nio-8078-exec-10] INFO  (ProductController.java:48) - Start get product by id
+2018-07-09 00:34:20,604 +0300 [http-nio-8078-exec-10] INFO  (ProductController.java:50) - End get product by id
+2018-07-09 00:34:24,470 +0300 [http-nio-8078-exec-1] INFO  (ProductController.java:48) - Start get product by id
+2018-07-09 00:34:24,472 +0300 [http-nio-8078-exec-1] INFO  (ProductController.java:50) - End get product by id
+2018-07-09 00:34:28,421 +0300 [http-nio-8078-exec-2] INFO  (ProductController.java:48) - Start get product by id
+2018-07-09 00:34:28,421 +0300 [http-nio-8078-exec-2] INFO  (ProductController.java:50) - End get product by id
+2018-07-09 00:34:59,368 +0300 [http-nio-8078-exec-3] INFO  (ProductController.java:48) - Start get product by id
+2018-07-09 00:34:59,369 +0300 [http-nio-8078-exec-3] INFO  (ProductController.java:50) - End get product by id
+2018-07-09 00:35:03,836 +0300 [http-nio-8078-exec-4] INFO  (ProductController.java:74) - Start removing product by id: 1
+2018-07-09 00:35:03,838 +0300 [http-nio-8078-exec-4] INFO  (ProductController.java:80) - Can't removing product by id: 1
+2018-07-09 00:35:43,172 +0300 [http-nio-8078-exec-5] INFO  (CategoryController.java:75) - Start get category by id
+2018-07-09 00:35:43,173 +0300 [http-nio-8078-exec-5] INFO  (CategoryController.java:77) - End get category by id
+2018-07-09 00:35:43,175 +0300 [http-nio-8078-exec-5] ERROR (CategoryController.java:80) - Can't get category by id
+2018-07-09 00:38:00,297 +0300 [http-nio-8078-exec-9] INFO  (CategoryController.java:72) - Start get category by id
+2018-07-09 00:38:00,306 +0300 [http-nio-8078-exec-9] INFO  (CategoryController.java:74) - End get category by id
+2018-07-09 00:38:06,794 +0300 [http-nio-8078-exec-8] INFO  (CategoryController.java:98) - Start removing category by id: 38
+2018-07-09 00:38:06,831 +0300 [http-nio-8078-exec-8] INFO  (CategoryController.java:101) - End removing category by id: 38
+2018-07-09 00:38:08,205 +0300 [http-nio-8078-exec-6] INFO  (CategoryController.java:98) - Start removing category by id: 38
+2018-07-09 00:38:08,211 +0300 [http-nio-8078-exec-6] INFO  (CategoryController.java:104) - Can't removing category by id: 38
+2018-07-09 00:38:13,661 +0300 [http-nio-8078-exec-5] INFO  (CategoryController.java:72) - Start get category by id
+2018-07-09 00:38:13,661 +0300 [http-nio-8078-exec-5] INFO  (CategoryController.java:74) - End get category by id
+2018-07-09 00:38:13,670 +0300 [http-nio-8078-exec-5] ERROR (CategoryController.java:77) - Can't get category by id
+2018-07-09 00:41:20,683 +0300 [http-nio-8078-exec-2] INFO  (ProductController.java:62) - Start inserting Product
+2018-07-09 00:41:20,692 +0300 [http-nio-8078-exec-2] INFO  (ProductController.java:64) - End inserting Product
+2018-07-09 00:41:22,120 +0300 [http-nio-8078-exec-3] INFO  (ProductController.java:62) - Start inserting Product
+2018-07-09 00:41:22,122 +0300 [http-nio-8078-exec-3] INFO  (ProductController.java:64) - End inserting Product
+2018-07-09 00:41:30,051 +0300 [http-nio-8078-exec-4] INFO  (ProductController.java:38) - Start get all products
+2018-07-09 00:41:30,054 +0300 [http-nio-8078-exec-4] INFO  (ProductController.java:40) - End get all products
+2018-07-09 00:41:44,573 +0300 [http-nio-8078-exec-5] INFO  (ProductController.java:50) - Start get product by id
+2018-07-09 00:41:44,573 +0300 [http-nio-8078-exec-5] INFO  (ProductController.java:52) - End get product by id
+2018-07-09 00:41:49,636 +0300 [http-nio-8078-exec-6] INFO  (ProductController.java:76) - Start removing product by id: 4
+2018-07-09 00:41:49,651 +0300 [http-nio-8078-exec-6] INFO  (ProductController.java:79) - End removing product by id: 4
+2018-07-09 00:41:50,559 +0300 [http-nio-8078-exec-7] INFO  (ProductController.java:76) - Start removing product by id: 4
+2018-07-09 00:41:50,559 +0300 [http-nio-8078-exec-7] INFO  (ProductController.java:82) - Can't removing product by id: 4
+2018-07-09 00:41:57,757 +0300 [http-nio-8078-exec-8] INFO  (ProductController.java:50) - Start get product by id
+2018-07-09 00:41:57,758 +0300 [http-nio-8078-exec-8] INFO  (ProductController.java:52) - End get product by id
+2018-07-09 00:41:57,761 +0300 [http-nio-8078-exec-8] ERROR (ProductController.java:55) - Can't get product by id
+2018-07-09 09:29:39,781 +0300 [http-nio-8078-exec-4] INFO  (CategoryController.java:84) - Start inserting Category
+2018-07-09 09:29:39,790 +0300 [http-nio-8078-exec-4] INFO  (CategoryController.java:86) - End inserting Category
+2018-07-09 09:29:39,842 +0300 [http-nio-8078-exec-4] ERROR (CategoryController.java:90) - Can't insert Categoryorg.springframework.dao.InvalidDataAccessApiUsageException: detached entity passed to persist: com.shop.api.model.LocalizedTextEntity; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.shop.api.model.LocalizedTextEntity
+2018-07-09 09:29:39,847 +0300 [http-nio-8078-exec-4] FATAL (CategoryController.java:91) - Can't insert Categoryorg.springframework.dao.InvalidDataAccessApiUsageException: detached entity passed to persist: com.shop.api.model.LocalizedTextEntity; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.shop.api.model.LocalizedTextEntity
+2018-07-09 09:29:49,178 +0300 [http-nio-8078-exec-6] INFO  (CategoryController.java:84) - Start inserting Category
+2018-07-09 09:29:49,184 +0300 [http-nio-8078-exec-6] INFO  (CategoryController.java:86) - End inserting Category
+2018-07-09 09:30:18,116 +0300 [http-nio-8078-exec-7] INFO  (CategoryController.java:84) - Start inserting Category
+2018-07-09 09:30:18,117 +0300 [http-nio-8078-exec-7] INFO  (CategoryController.java:86) - End inserting Category
+2018-07-09 09:32:41,031 +0300 [http-nio-8078-exec-10] INFO  (CategoryController.java:84) - Start inserting Category
+2018-07-09 09:32:41,032 +0300 [http-nio-8078-exec-10] INFO  (CategoryController.java:86) - End inserting Category
+2018-07-09 09:41:04,978 +0300 [http-nio-8078-exec-3] INFO  (CategoryController.java:84) - Start inserting Category
+2018-07-09 09:41:04,979 +0300 [http-nio-8078-exec-3] INFO  (CategoryController.java:86) - End inserting Category
+2018-07-09 09:41:37,831 +0300 [http-nio-8078-exec-1] INFO  (CategoryController.java:115) - Start update Category
+2018-07-09 09:41:37,845 +0300 [http-nio-8078-exec-1] INFO  (CategoryController.java:117) - End update Category
+2018-07-09 09:41:49,393 +0300 [http-nio-8078-exec-3] INFO  (CategoryController.java:115) - Start update Category
+2018-07-09 09:41:49,402 +0300 [http-nio-8078-exec-3] INFO  (CategoryController.java:117) - End update Category
+2018-07-09 09:44:23,456 +0300 [http-nio-8078-exec-2] INFO  (CategoryController.java:115) - Start update Category
+2018-07-09 09:44:26,715 +0300 [http-nio-8078-exec-2] INFO  (CategoryController.java:117) - End update Category
+2018-07-09 09:44:48,868 +0300 [http-nio-8078-exec-5] INFO  (CategoryController.java:115) - Start update Category
+2018-07-09 09:44:49,143 +0300 [http-nio-8078-exec-5] INFO  (CategoryController.java:117) - End update Category
+2018-07-09 10:09:10,942 +0300 [http-nio-8078-exec-7] INFO  (CategoryController.java:114) - Start update Category
+2018-07-09 10:09:10,954 +0300 [http-nio-8078-exec-7] INFO  (CategoryController.java:116) - End update Category
+2018-07-09 19:45:25,942 +0300 [http-nio-8078-exec-7] INFO  (CategoryController.java:35) - Start get all category
+2018-07-09 19:45:25,952 +0300 [http-nio-8078-exec-7] INFO  (CategoryController.java:37) - End get all category
+2018-07-09 19:58:42,172 +0300 [http-nio-8078-exec-1] INFO  (AuthenticationController.java:59) - Start get all category
+2018-07-09 19:58:42,179 +0300 [http-nio-8078-exec-1] INFO  (AuthenticationController.java:61) - End get all category
+2018-07-09 20:01:41,246 +0300 [http-nio-8078-exec-7] INFO  (CategoryController.java:37) - Start get all category
+2018-07-09 20:01:41,250 +0300 [http-nio-8078-exec-7] INFO  (CategoryController.java:39) - End get all category
+2018-07-09 20:02:07,802 +0300 [http-nio-8078-exec-8] INFO  (CategoryController.java:61) - Start get all active category
+2018-07-09 20:02:07,804 +0300 [http-nio-8078-exec-8] INFO  (CategoryController.java:63) - End get all active category
+2018-07-09 20:04:36,792 +0300 [http-nio-8078-exec-10] INFO  (AuthenticationController.java:59) - Start get all category
+2018-07-09 20:04:36,793 +0300 [http-nio-8078-exec-10] INFO  (AuthenticationController.java:61) - End get all category
+2018-07-09 20:04:40,596 +0300 [http-nio-8078-exec-2] INFO  (AuthenticationController.java:59) - Start get all category
+2018-07-09 20:04:40,597 +0300 [http-nio-8078-exec-2] INFO  (AuthenticationController.java:61) - End get all category
+2018-07-09 20:06:39,630 +0300 [http-nio-8078-exec-7] INFO  (AuthenticationController.java:59) - Start get all category
+2018-07-09 20:06:39,658 +0300 [http-nio-8078-exec-7] INFO  (AuthenticationController.java:61) - End get all category
+2018-07-09 20:10:33,214 +0300 [http-nio-8078-exec-9] INFO  (AuthenticationController.java:59) - Start get all category
+2018-07-09 20:10:33,215 +0300 [http-nio-8078-exec-9] INFO  (AuthenticationController.java:61) - End get all category

@@ -1,0 +1,8 @@
+2018-07-11 09:04:24,847 +0300 [http-nio-8078-exec-9] INFO  (CategoryController.java:37) - Start get all category
+2018-07-11 09:04:24,864 +0300 [http-nio-8078-exec-9] INFO  (CategoryController.java:39) - End get all category
+2018-07-11 09:16:43,375 +0300 [http-nio-8078-exec-10] INFO  (ProductController.java:107) - Start update Product
+2018-07-11 09:16:43,382 +0300 [http-nio-8078-exec-10] INFO  (ProductController.java:112) - End update Product
+2018-07-11 09:20:03,460 +0300 [http-nio-8078-exec-1] INFO  (CategoryController.java:101) - Start removing category by id: 1
+2018-07-11 09:20:03,547 +0300 [http-nio-8078-exec-1] INFO  (CategoryController.java:104) - End removing category by id: 1
+2018-07-11 09:21:23,961 +0300 [http-nio-8078-exec-7] INFO  (CategoryController.java:101) - Start removing category by id: 2
+2018-07-11 09:21:23,970 +0300 [http-nio-8078-exec-7] INFO  (CategoryController.java:104) - End removing category by id: 2

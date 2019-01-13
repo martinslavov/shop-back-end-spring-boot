@@ -1,0 +1,590 @@
+2018-11-22 10:38:56,516 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 10:38:56,568 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 10:39:04,739 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 10:39:04,740 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 10:39:08,242 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 10:39:08,242 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 10:39:08,265 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 10:39:08,265 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 10:39:14,885 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 10:39:14,886 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 10:39:14,919 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 10:39:14,920 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 10:59:43,041 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 10:59:43,042 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 11:00:06,373 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 11:00:06,374 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 11:00:11,959 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 11:00:11,963 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 11:00:21,745 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 11:00:21,745 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 11:00:29,173 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 11:00:29,173 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 11:03:51,279 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 11:03:51,280 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 11:04:07,053 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 11:04:07,054 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 11:05:14,025 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 11:05:14,025 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 12:26:49,051 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 12:26:49,063 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 12:26:55,816 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 12:26:55,816 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 12:27:09,018 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 12:27:09,019 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 14:03:50,454 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 14:03:50,470 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 14:04:00,276 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:04:00,277 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:04:00,314 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:04:00,315 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:04:25,867 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:04:25,868 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:04:25,962 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:04:25,963 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:04:59,523 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:04:59,524 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:04:59,582 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:04:59,582 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:05:18,062 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:05:18,063 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:05:18,095 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:05:18,096 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:08:51,676 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:08:51,676 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:08:51,731 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:08:51,732 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:09:42,803 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:09:42,804 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:09:42,838 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:09:42,839 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:10:10,228 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:10:10,229 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 14:10:10,389 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 14:10:10,390 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:03:09,464 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:03:09,465 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:03:09,493 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:03:09,493 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:07:22,244 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:07:22,245 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:07:22,285 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:07:22,285 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:07:45,379 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:07:45,379 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:07:45,444 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:07:45,444 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:08:13,480 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:08:13,480 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:08:13,552 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:08:13,552 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:08:51,060 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:08:51,061 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:08:51,109 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:08:51,109 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:09:10,537 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:09:10,538 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:09:10,578 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:09:10,579 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:09:50,542 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:09:50,542 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:09:50,583 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:09:50,584 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:31:34,117 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:31:34,117 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:31:44,604 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:31:44,605 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:32:56,553 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:32:56,554 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:33:37,862 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:33:37,863 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:33:47,357 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:33:47,357 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:35:26,617 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:35:26,617 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:35:37,937 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:35:37,937 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:35:37,977 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:35:37,979 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:37:01,760 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:37:01,761 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:37:35,744 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:37:35,744 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:37:42,278 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:37:42,279 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:37:42,307 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:37:42,307 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:38:10,879 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:38:10,879 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:38:10,925 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:38:10,925 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:38:27,246 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:38:27,246 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:38:27,307 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 15:38:27,307 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 15:38:30,970 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:38:30,971 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:38:55,778 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:38:55,779 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:42:28,697 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:42:28,698 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:43:37,716 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:43:37,717 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:44:13,144 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:44:13,144 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:44:20,350 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:44:20,350 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:44:25,668 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:44:25,669 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:45:29,012 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:45:29,012 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:46:59,440 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:46:59,440 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:47:25,922 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:47:25,923 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:47:58,874 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:47:58,875 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:48:54,374 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:48:54,375 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:50:54,768 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:50:54,769 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:50:57,601 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:50:57,602 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:51:20,674 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:51:20,674 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:51:21,801 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:51:21,801 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:51:46,025 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:51:46,026 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:51:46,447 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:51:46,447 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:52:01,493 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:52:01,494 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:52:16,125 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:52:16,125 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:52:17,482 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:52:17,483 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:53:05,821 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:53:05,822 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:55:23,237 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:55:23,238 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:55:23,851 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:55:23,852 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:57:30,096 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:57:30,097 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:57:31,769 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:57:31,769 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:59:28,380 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:59:28,380 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:59:36,364 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:59:36,365 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 15:59:37,885 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 15:59:37,885 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:02:59,820 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:02:59,820 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:03:44,665 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:03:44,666 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:03:45,982 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:03:45,983 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:04:28,288 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:04:28,288 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:04:29,072 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:04:29,073 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:04:36,042 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:04:36,042 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:05:09,412 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:05:09,413 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:05:09,603 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:05:09,603 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:05:54,911 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:05:54,911 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:05:56,295 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:05:56,295 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:07:24,350 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:07:24,351 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:07:25,534 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:07:25,534 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:08:25,173 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:08:25,174 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:08:38,950 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:08:38,951 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:09:09,313 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:09:09,314 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:09:10,344 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:09:10,345 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:09:20,414 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:09:20,414 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:09:21,684 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:09:21,684 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:10:28,600 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:10:28,600 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:10:29,593 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:10:29,594 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:11:13,645 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:11:13,646 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:11:14,898 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:11:14,899 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:11:24,903 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:11:24,903 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:11:26,121 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:11:26,121 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:11:31,004 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:11:31,005 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:11:32,457 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:11:32,457 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:13:07,469 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:13:07,470 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:13:10,359 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:13:10,359 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:13:20,544 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:13:20,544 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:13:21,842 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:13:21,843 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:14:02,779 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:14:02,779 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:14:04,895 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:14:04,896 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:14:36,975 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:14:36,975 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:14:38,145 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:14:38,145 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:16:03,431 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:16:03,432 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:16:04,751 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:16:04,752 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:16:10,725 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:16:10,725 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:17:19,481 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:17:19,482 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:17:21,650 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:17:21,651 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:18:06,920 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:18:06,920 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:18:06,947 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:18:06,948 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:18:35,745 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:18:35,745 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:18:35,764 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:18:35,764 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:19:39,870 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:19:39,871 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:19:39,914 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:19:39,915 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:19:41,435 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:19:41,435 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:20:45,353 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:20:45,354 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:20:45,426 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:20:45,426 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:20:46,693 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:20:46,693 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:21:03,525 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:21:03,526 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:21:03,560 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:21:03,560 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:21:04,570 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:21:04,571 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:21:13,442 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:21:13,442 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:21:13,520 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:21:13,521 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:21:15,040 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:21:15,041 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:21:21,579 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:21:21,580 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:21:21,648 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:21:21,649 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:21:23,031 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:21:23,032 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:21:29,936 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:21:29,936 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:21:29,967 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:21:29,968 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:21:35,611 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:21:35,611 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:21:37,084 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:21:37,084 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:21:37,105 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:21:37,106 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:22:09,726 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:22:09,727 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:22:09,792 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:22:09,792 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:22:10,832 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:22:10,832 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:22:59,081 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:22:59,082 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:22:59,472 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:22:59,473 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:22:59,502 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:22:59,502 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:23:28,093 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:23:28,094 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:23:28,680 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:23:28,681 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:23:28,713 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:23:28,714 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:24:02,361 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:24:02,362 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:24:02,698 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 16:24:02,699 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 16:24:04,164 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:24:04,164 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:39:21,489 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:39:21,490 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:42:58,731 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:42:58,731 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:43:04,075 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:43:04,075 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:43:06,125 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:43:06,125 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:43:09,712 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:43:09,713 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:43:32,860 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:43:32,861 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:43:49,768 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:43:49,768 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:44:48,813 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:44:48,813 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:48:13,666 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:48:13,667 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:49:48,200 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:49:48,201 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:54:29,234 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:54:29,235 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:54:41,995 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:54:41,996 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:54:48,251 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:54:48,251 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:55:05,846 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:55:05,847 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:56:51,883 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:56:51,883 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:56:52,125 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:56:52,126 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:59:24,436 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:59:24,437 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 16:59:24,488 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 16:59:24,489 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:01:01,755 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:01:01,755 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:01:01,825 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:01:01,825 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:01:18,394 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:01:18,394 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:01:18,435 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:01:18,435 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:12:01,834 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:12:01,835 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:12:32,832 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:12:32,832 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:12:33,513 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:12:33,514 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:12:37,846 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:12:37,847 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:13:49,448 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:13:49,449 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:13:49,804 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:13:49,805 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:14:09,528 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:14:09,528 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:14:09,963 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:14:09,963 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:15:02,166 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:15:02,167 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:15:02,347 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:15:02,347 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:15:08,422 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:15:08,423 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:16:23,640 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:16:23,641 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:16:25,314 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:16:25,315 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:16:46,804 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:16:46,805 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:16:47,437 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:16:47,437 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:16:52,712 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:16:52,713 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:17:46,693 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:17:46,693 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:17:48,058 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:17:48,058 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:18:15,838 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:18:15,838 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:18:17,655 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:18:17,656 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:18:21,100 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:18:21,101 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:18:40,944 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:18:40,945 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:18:41,808 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:18:41,808 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:19:13,565 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:19:13,566 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:19:13,916 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:19:13,916 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:19:32,395 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:19:32,396 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:19:33,125 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:19:33,126 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:19:51,630 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:19:51,630 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:19:52,566 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:19:52,566 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:20:17,735 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:20:17,735 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:20:17,965 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:20:17,966 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:21:21,738 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:21:21,739 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:21:22,043 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:21:22,043 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:21:37,755 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:21:37,756 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:21:38,495 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:21:38,495 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:21:54,182 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:21:54,183 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:23:01,732 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:23:01,732 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:23:25,001 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:23:25,002 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:23:28,213 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:23:28,214 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:24:10,721 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:24:10,722 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:24:11,650 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:24:11,651 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:24:38,033 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:24:38,033 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:24:39,306 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:24:39,307 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:24:52,896 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:24:52,896 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:24:54,215 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:24:54,216 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:25:01,648 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:25:01,648 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:25:03,141 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:25:03,142 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:25:25,118 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:25:25,119 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:25:25,731 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:25:25,731 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:26:34,045 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:26:34,046 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:26:34,755 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:26:34,755 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:27:14,838 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:27:14,838 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:27:15,639 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:27:15,639 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:27:41,952 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:27:41,952 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:27:42,770 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:27:42,770 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:28:25,362 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:28:25,363 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:28:26,441 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:28:26,441 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:28:31,155 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:28:31,156 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:28:32,298 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:28:32,298 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:29:18,886 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:29:18,886 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:38:56,831 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:38:56,831 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:40:34,352 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:40:34,353 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:40:55,683 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:40:55,684 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:40:55,709 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:40:55,709 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:42:30,035 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:42:30,036 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:42:30,092 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:42:30,092 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:43:12,009 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:43:12,009 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:43:12,033 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:43:12,033 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:43:17,318 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:43:17,319 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:43:32,163 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:43:32,164 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:43:32,187 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:43:32,187 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:43:53,522 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:43:53,523 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:43:53,549 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:43:53,550 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:46:44,715 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:46:44,716 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:46:44,745 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:46:44,745 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:46:47,161 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:46:47,162 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:46:47,189 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 17:46:47,190 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 17:50:10,759 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:50:10,760 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:51:08,368 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:51:08,369 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:56:15,697 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:56:15,698 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 17:59:11,039 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 17:59:11,039 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 18:04:17,384 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 18:04:17,385 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 18:04:19,437 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 18:04:19,438 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 18:04:19,457 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 18:04:19,458 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 18:16:41,526 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 18:16:41,527 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 18:16:41,562 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 18:16:41,563 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:09:21,200 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 22:09:21,200 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 22:09:35,182 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 22:09:35,182 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 22:10:22,891 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 22:10:22,891 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 22:10:39,053 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:10:39,053 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:10:39,073 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:10:39,073 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:13:31,537 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 22:13:31,538 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 22:13:53,720 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:13:53,720 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:13:53,740 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:13:53,740 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:14:15,051 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:14:15,051 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:14:15,071 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:14:15,071 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:14:50,796 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:14:50,796 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:14:50,824 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:14:50,824 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:15:07,860 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 22:15:07,860 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 22:15:13,661 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:15:13,661 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:15:13,677 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:15:13,677 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:21:18,746 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:21:18,746 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:21:18,778 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:21:18,778 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:21:48,069 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 22:21:48,069 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 22:28:37,283 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2018-11-22 22:28:37,285 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2018-11-22 22:28:43,554 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:28:43,554 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:172) - End get all active product
+2018-11-22 22:28:43,578 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:170) - Start get all active product
+2018-11-22 22:28:43,578 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:172) - End get all active product

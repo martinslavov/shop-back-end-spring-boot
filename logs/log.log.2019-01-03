@@ -1,0 +1,109 @@
+2019-01-03 17:15:24,843 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 17:15:24,881 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 17:16:01,698 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 17:16:01,700 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 17:16:05,110 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:63) - Start get all active category only
+2019-01-03 17:16:05,113 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:65) - End get all active category only
+2019-01-03 17:16:08,934 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 17:16:08,935 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 17:16:31,198 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 17:16:31,200 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 17:16:32,457 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:63) - Start get all active category only
+2019-01-03 17:16:32,458 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:65) - End get all active category only
+2019-01-03 17:16:34,600 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 17:16:34,601 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 17:21:22,695 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:79) - Start inserting Product
+2019-01-03 17:21:22,697 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:81) - End inserting Product
+2019-01-03 17:21:22,801 +0200 [http-nio-8888-exec-7] ERROR (ProductController.java:97) - Can't insert Productjava.lang.NullPointerException
+2019-01-03 17:21:22,808 +0200 [http-nio-8888-exec-7] FATAL (ProductController.java:98) - Can't insert Productjava.lang.NullPointerException
+2019-01-03 17:38:43,980 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:79) - Start inserting Product
+2019-01-03 17:38:43,982 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:81) - End inserting Product
+2019-01-03 17:38:43,998 +0200 [http-nio-8888-exec-9] ERROR (ProductController.java:97) - Can't insert Productjava.lang.NullPointerException
+2019-01-03 17:38:43,999 +0200 [http-nio-8888-exec-9] FATAL (ProductController.java:98) - Can't insert Productjava.lang.NullPointerException
+2019-01-03 17:39:36,257 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:79) - Start inserting Product
+2019-01-03 17:39:36,258 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:81) - End inserting Product
+2019-01-03 17:39:36,275 +0200 [http-nio-8888-exec-10] ERROR (ProductController.java:97) - Can't insert Productjava.lang.NullPointerException
+2019-01-03 17:39:36,276 +0200 [http-nio-8888-exec-10] FATAL (ProductController.java:98) - Can't insert Productjava.lang.NullPointerException
+2019-01-03 18:13:30,286 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:79) - Start inserting Product
+2019-01-03 18:13:30,287 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:81) - End inserting Product
+2019-01-03 18:13:30,298 +0200 [http-nio-8888-exec-2] ERROR (ProductController.java:97) - Can't insert Productjava.lang.NullPointerException
+2019-01-03 18:13:30,299 +0200 [http-nio-8888-exec-2] FATAL (ProductController.java:98) - Can't insert Productjava.lang.NullPointerException
+2019-01-03 18:21:47,975 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:79) - Start inserting Product
+2019-01-03 18:21:47,976 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:81) - End inserting Product
+2019-01-03 18:21:47,992 +0200 [http-nio-8888-exec-3] ERROR (ProductController.java:97) - Can't insert Productjava.lang.NullPointerException
+2019-01-03 18:21:47,993 +0200 [http-nio-8888-exec-3] FATAL (ProductController.java:98) - Can't insert Productjava.lang.NullPointerException
+2019-01-03 18:22:57,583 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:22:57,584 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:23:00,313 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:63) - Start get all active category only
+2019-01-03 18:23:00,315 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:65) - End get all active category only
+2019-01-03 18:23:01,711 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:23:01,712 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:23:19,653 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:23:19,658 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:23:31,694 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:23:31,696 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:25:44,821 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:25:44,822 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:38:25,563 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:38:25,565 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:38:59,312 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:38:59,323 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:39:57,107 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:39:57,108 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:40:10,325 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:40:10,326 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:40:40,654 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:40:40,656 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:41:20,002 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:41:20,009 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:41:42,375 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:41:42,376 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:48:34,864 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:48:34,866 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:52:49,162 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:52:49,165 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:53:21,049 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:53:21,050 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:53:29,811 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:53:29,812 +0200 [http-nio-8888-exec-9] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 18:53:41,583 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 18:53:41,585 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 19:01:57,112 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 19:01:57,112 +0200 [http-nio-8888-exec-3] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 19:05:03,110 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 19:05:03,111 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 19:05:42,936 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 19:05:42,936 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 19:06:22,250 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 19:06:22,251 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 19:06:38,161 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 19:06:38,161 +0200 [http-nio-8888-exec-8] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 19:07:46,147 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:185) - Start get all active product
+2019-01-03 19:07:46,148 +0200 [http-nio-8888-exec-10] INFO  (ProductController.java:187) - End get all active product
+2019-01-03 19:09:37,192 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 19:09:37,194 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 19:09:48,682 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 19:09:48,682 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 19:10:07,199 +0200 [http-nio-8888-exec-3] ERROR (CategoryController.java:55) - Can't get all active category only no auth
+2019-01-03 19:10:18,688 +0200 [http-nio-8888-exec-4] ERROR (CategoryController.java:55) - Can't get all active category only no auth
+2019-01-03 19:11:36,347 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 19:11:36,347 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 19:11:53,628 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 19:11:53,628 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 19:12:06,350 +0200 [http-nio-8888-exec-6] ERROR (CategoryController.java:55) - Can't get all active category only no auth
+2019-01-03 19:12:20,923 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 19:12:20,924 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 19:12:23,638 +0200 [http-nio-8888-exec-7] ERROR (CategoryController.java:55) - Can't get all active category only no auth
+2019-01-03 19:12:34,143 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 19:12:34,144 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 19:12:50,926 +0200 [http-nio-8888-exec-8] ERROR (CategoryController.java:55) - Can't get all active category only no auth
+2019-01-03 19:12:53,471 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 19:12:53,471 +0200 [http-nio-8888-exec-10] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 19:13:04,148 +0200 [http-nio-8888-exec-9] ERROR (CategoryController.java:55) - Can't get all active category only no auth
+2019-01-03 19:13:19,719 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 19:13:19,720 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 19:13:23,477 +0200 [http-nio-8888-exec-10] ERROR (CategoryController.java:55) - Can't get all active category only no auth
+2019-01-03 19:13:35,354 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:50) - Start get all active category only no auth
+2019-01-03 19:13:35,354 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:52) - End get all active category only no auth
+2019-01-03 19:13:49,725 +0200 [http-nio-8888-exec-1] ERROR (CategoryController.java:55) - Can't get all active category only no auth
+2019-01-03 19:14:05,360 +0200 [http-nio-8888-exec-2] ERROR (CategoryController.java:55) - Can't get all active category only no auth

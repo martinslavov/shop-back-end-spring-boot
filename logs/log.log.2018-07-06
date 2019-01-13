@@ -1,0 +1,8 @@
+2018-07-06 17:02:55,346 +0300 [http-nio-8078-exec-1] INFO  (CategoryController.java:71) - INSERT Category
+2018-07-06 17:02:55,360 +0300 [http-nio-8078-exec-1] ERROR (CategoryController.java:73) - INSERT Category
+2018-07-06 17:04:28,190 +0300 [http-nio-8078-exec-2] INFO  (CategoryController.java:71) - INSERT Category
+2018-07-06 17:04:28,199 +0300 [http-nio-8078-exec-2] DEBUG (CategoryController.java:72) - INSERT Category
+2018-07-06 17:04:28,200 +0300 [http-nio-8078-exec-2] ERROR (CategoryController.java:73) - INSERT Category
+2018-07-06 17:05:06,487 +0300 [http-nio-8078-exec-2] INFO  (CategoryController.java:71) - INSERT Category
+2018-07-06 17:05:06,500 +0300 [http-nio-8078-exec-2] DEBUG (CategoryController.java:72) - INSERT Category
+2018-07-06 17:05:06,503 +0300 [http-nio-8078-exec-2] ERROR (CategoryController.java:73) - INSERT Category
