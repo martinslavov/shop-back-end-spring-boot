@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.shop.api.exception.BadRequestException;
@@ -18,6 +19,9 @@ import com.shop.api.exception.EntityNotFoundException;
 import com.shop.api.model.Category;
 import com.shop.api.model.CategoryOnly;
 import com.shop.api.service.CategoryService;
+
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.Authorization;
 
 /**
  * Created by Martin Slavov on 01/08/2018.
@@ -33,6 +37,11 @@ public class CategoryController {
 	@Autowired
 	private CategoryService categoryService;
 
+	@ApiOperation(  value = "Get all categories",
+			notes = "getCategories()",
+			authorizations = { @Authorization(value="token") 
+	})
+	@ResponseBody
 	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity<Collection<Category>> getCategories() throws EntityNotFoundException {
 		logger.info("Start get all category");
@@ -45,6 +54,8 @@ public class CategoryController {
 		}	
 	}
 	
+	@ApiOperation(  value = "Get only all categories without authentication",
+			notes = "getCategoriesOnlyWithNoAuth()")
 	@RequestMapping(value = "/only-noauth", method = RequestMethod.GET)
 	public ResponseEntity<Collection<CategoryOnly>> getCategoriesOnlyWithNoAuth() throws EntityNotFoundException {
 		logger.info("Start get all active category only no auth");
@@ -57,7 +68,10 @@ public class CategoryController {
 		}
 	}
 	
-	
+	@ApiOperation(  value = "Get all categories only",
+			notes = "getCategoriesOnly()",
+			authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/only", method = RequestMethod.GET)
 	public ResponseEntity<Collection<CategoryOnly>> getCategoriesOnly() throws EntityNotFoundException {
 		logger.info("Start get all active category only");
@@ -70,6 +84,10 @@ public class CategoryController {
 		}
 	}
 	
+	@ApiOperation(  value = "Get all active categories",
+			notes = "findAllActiveCategory()",
+			authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/active", method = RequestMethod.GET)
 	public ResponseEntity<Collection<Category>> findAllActiveCategory() throws EntityNotFoundException {
 		logger.info("Start get all active category");
@@ -82,6 +100,10 @@ public class CategoryController {
 		}
 	}
 
+	@ApiOperation(value = "Get category by id",
+			notes = "getCategory(@PathVariable long id)",
+			authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public ResponseEntity<Category> getCategory(@PathVariable long id) throws EntityNotFoundException {
 		logger.info("Start get category by id");
@@ -94,6 +116,10 @@ public class CategoryController {
 		}
 	}
 
+	@ApiOperation(value = "Add a new category",
+			  notes = "addCategory(@RequestBody Category category)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(method = RequestMethod.POST)
 	public ResponseEntity<?> addCategory(@RequestBody Category category) throws EntityNotFoundException, BadRequestException {
 		logger.info("Start inserting Category");
@@ -108,6 +134,10 @@ public class CategoryController {
 		}
 	}
 
+	@ApiOperation(value = "Delete category by id",
+			  notes = "deleteCategory(@PathVariable long id)",
+			  authorizations = { @Authorization(value="token") 
+	})
     @PreAuthorize("hasRole('ADMIN')")
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
 	public ResponseEntity<Void> deleteCategory(@PathVariable long id) throws EntityNotFoundException {
@@ -122,6 +152,10 @@ public class CategoryController {
 		}
 	}
 	
+	@ApiOperation(value = "Update category",
+			  notes = "updateCategory(@RequestBody Category category)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(method = RequestMethod.PUT)
 	public ResponseEntity<?> updateCategory(@RequestBody Category category) throws EntityNotFoundException, BadRequestException {
 		
@@ -140,6 +174,10 @@ public class CategoryController {
 		}
 	}
 	
+	@ApiOperation(value = "Update category by id",
+			  notes = "updateCategory(@RequestBody Category category)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/{id}/disable-enable", method = RequestMethod.PUT)
 	public int disableEnableCategory(@RequestBody Category category) throws EntityNotFoundException, BadRequestException {
 		logger.info("Start update Category");
@@ -156,6 +194,10 @@ public class CategoryController {
 		}
 	}
 
+	@ApiOperation(value = "Get all products for specific category by category id",
+			  notes = "getCategoryProducts(@PathVariable long id)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/{id}/products", method = RequestMethod.GET)
 	public ResponseEntity<?> getCategoryProducts(@PathVariable long id) throws EntityNotFoundException {		
 		Category category = categoryService.findById(id);
@@ -170,6 +212,10 @@ public class CategoryController {
 		}
 	}
 	
+	@ApiOperation(value = "Get category by category name",
+			  notes = "findByName(@PathVariable String name)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/name/{name}", method = RequestMethod.GET)
 	public ResponseEntity<Category> findByName(@PathVariable String name) throws EntityNotFoundException {
 		logger.info("Start get all active category");

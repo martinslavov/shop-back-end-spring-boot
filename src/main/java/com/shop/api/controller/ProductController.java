@@ -21,6 +21,9 @@ import com.shop.api.model.Product;
 import com.shop.api.service.CategoryService;
 import com.shop.api.service.ProductService;
 
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.Authorization;
+
 /**
  * Created by Martin Slavov on 01/08/2018.
  */
@@ -38,6 +41,10 @@ public class ProductController {
 	@Autowired
 	private CategoryService categoryService;
 		
+	@ApiOperation(value = "Get all products",
+			  notes = "getProducts()",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity<Collection<Product>> getProducts() throws EntityNotFoundException {
 		logger.info("Start get all products");
@@ -50,6 +57,10 @@ public class ProductController {
 		}	
 	}
 	
+	@ApiOperation(value = "Get all active products",
+			  notes = "findAllActiveProduct()",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/active", method = RequestMethod.GET)
 	public ResponseEntity<Collection<Product>> findAllActiveProduct() throws EntityNotFoundException {
 		logger.info("Start get all active product");
@@ -62,6 +73,10 @@ public class ProductController {
 		}
 	}
 
+	@ApiOperation(value = "Get product by id",
+			  notes = "getProduct(@PathVariable long id)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public ResponseEntity<Product> getProduct(@PathVariable long id) throws EntityNotFoundException {
 		logger.info("Start get product by id");
@@ -73,7 +88,11 @@ public class ProductController {
 			throw new EntityNotFoundException(Product.class, "id", Long.toString(id));
 		}
 	}
-
+	
+	@ApiOperation(value = "Add product",
+			  notes = "addProduct(@RequestBody Product product, @RequestParam String categoryName)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(method = RequestMethod.POST)
 	public ResponseEntity<Product> addProduct(@RequestBody Product product, @RequestParam String categoryName) throws BadRequestException {   
 		logger.info("Start inserting Product");
@@ -100,6 +119,10 @@ public class ProductController {
 		}
 	}
 	
+	@ApiOperation(value = "Update product",
+			  notes = "updateProduct(@RequestBody Product product)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(method = RequestMethod.PUT)
 	public ResponseEntity<Product> updateProduct(@RequestBody Product product, @RequestParam String categoryName) throws BadRequestException {
 		
@@ -128,6 +151,10 @@ public class ProductController {
 		}
 	}
 
+	@ApiOperation(value = "Delete product by id",
+			  notes = "deleteProduct(@PathVariable long id)",
+			  authorizations = { @Authorization(value="token") 
+	})
     @PreAuthorize("hasRole('ADMIN')")
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
 	public ResponseEntity<Void> deleteProduct(@PathVariable long id) throws EntityNotFoundException {
@@ -142,6 +169,10 @@ public class ProductController {
 		}
 	}
 	
+	@ApiOperation(value = "Disable-Enable Product",
+			  notes = "disableEnableProduct(@RequestBody Product product)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/{id}/disable-enable", method = RequestMethod.PUT)
 	public int disableEnableCategory(@RequestBody Product product) throws EntityNotFoundException, BadRequestException {
 		logger.info("Start update Product");
@@ -158,6 +189,10 @@ public class ProductController {
 		}
 	}
 	
+	@ApiOperation(value = "Get all the categories to which a product belongs",
+			  notes = "getProductCategories(@PathVariable long id)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/{id}/categories", method = RequestMethod.GET)
 	public ResponseEntity<?> getProductCategories(@PathVariable long id) throws EntityNotFoundException {
 		Product product = productService.findById(id);
@@ -172,6 +207,10 @@ public class ProductController {
 		}
 	}
 	
+	@ApiOperation(value = "Get all active products by category name",
+			  notes = "findByCategoryName(@PathVariable String categoryName)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/category-name/{categoryName}", method = RequestMethod.GET)
 	public ResponseEntity<Collection<Product>> findByCategoryName(@PathVariable String categoryName) throws EntityNotFoundException {
 		
@@ -187,6 +226,10 @@ public class ProductController {
 		}
 	}
 	
+	@ApiOperation(value = "Get all products by category name",
+			  notes = "findAllByCategoryName(@PathVariable String categoryName) ",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/category-name/all/{categoryName}", method = RequestMethod.GET)
 	public ResponseEntity<Collection<Product>> findAllByCategoryName(@PathVariable String categoryName) throws EntityNotFoundException {
 		
@@ -202,6 +245,10 @@ public class ProductController {
 		}
 	}
 	
+	@ApiOperation(value = "Get product by product name",
+			  notes = "findByProductName(@PathVariable String productName)",
+			  authorizations = { @Authorization(value="token") 
+	})
 	@RequestMapping(value = "/product-name/{productName}", method = RequestMethod.GET)
 	public ResponseEntity<Product> findByProductName(@PathVariable String productName) throws EntityNotFoundException {
 		
