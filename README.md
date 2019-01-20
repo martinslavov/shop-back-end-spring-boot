@@ -40,7 +40,12 @@ http://moniks.linux-sys-adm.com/
 ### Shop
 http://moniks.linux-sys-adm.com/shop/category
 
+
+
 ### Endpoints
+
+You can read about Endpoints described with swagger ui on following link:
+http://moniks.linux-sys-adm.com:8888/swagger-ui.html#/
 
 | Method | Url | Decription |
 | ------ | --- | ---------- |
