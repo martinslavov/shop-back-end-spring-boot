@@ -70,6 +70,10 @@ public class Product extends AbstractTimestampEntity {
 	@Basic
 	@Column(name = "best_saller", columnDefinition = "BIT", length = 1)
 	private Boolean bestSaller;
+	
+	@Column(name = "alt")
+	private String alt;
+	
 
 	public Product() {
 	}
@@ -120,6 +124,14 @@ public class Product extends AbstractTimestampEntity {
 
 	public void setImage(String image) {
 		this.image = image;
+	}
+	
+	public String getAlt() {
+		return alt;
+	}
+
+	public void setAlt(String alt) {
+		this.alt = alt;
 	}
 
 	public Set<Category> getCategories() {
