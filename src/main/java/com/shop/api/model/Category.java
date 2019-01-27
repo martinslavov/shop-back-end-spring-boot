@@ -51,15 +51,20 @@ public class Category {
 	@Basic
     @Column(name = "active", columnDefinition = "BIT", length = 1)
     private Boolean enabled;
+	
+	@Column(name = "alt")
+	private String alt;
+	
 
     public Category() {
 
     }
 
-    public Category(long id, int categoryId, boolean enabled) {
+    public Category(long id, int categoryId, boolean enabled, String alt) {
     	this.id = id;
     	this.categoryId = categoryId;
     	this.enabled = enabled;    
+    	this.alt = alt;    
     }
 
 	public long getId() {
@@ -101,5 +106,12 @@ public class Category {
     public void setEnabled(boolean enabled) {
         this.enabled = enabled;
     }
+    
+	public String getAlt() {
+		return alt;
+	}
 
+	public void setAlt(String alt) {
+		this.alt = alt;
+	}
 }
