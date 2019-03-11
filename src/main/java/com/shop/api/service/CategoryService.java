@@ -12,6 +12,7 @@ import com.shop.api.model.CategoryOnly;
 public interface CategoryService {
 
 	Category save(Category category);
+	Boolean existsById(Long id);
     List<Category> findAll();
     void delete(long id);
     Category findOne(String categoryName);

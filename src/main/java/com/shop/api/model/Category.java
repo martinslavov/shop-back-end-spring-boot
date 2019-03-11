@@ -67,6 +67,14 @@ public class Category {
     	this.alt = alt;    
     }
 
+    public Category(long id, int categoryId, boolean enabled, String alt, Map<String, LocalizedTextEntity> text) {
+    	this.id = id;
+    	this.categoryId = categoryId;
+    	this.enabled = enabled;    
+    	this.alt = alt;   
+    	this.text = text;
+    }
+    
 	public long getId() {
 		return id;
 	}

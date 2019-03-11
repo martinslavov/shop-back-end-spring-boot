@@ -53,7 +53,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.cors().and().csrf().disable().
                 authorizeRequests()
-                .antMatchers("/api/token/*", "/api/categories/only-noauth",
+                .antMatchers("/api/token/*", "/api/categories/only-noauth", "/api/categories/no-auth/*", "/api/categories/junit",
                 		"/",
                         "/v2/api-docs",           // swagger
                         "/webjars/**",            // swagger-ui webjars

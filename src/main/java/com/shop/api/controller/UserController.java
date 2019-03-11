@@ -39,6 +39,11 @@ public class UserController {
     public User getOne(@PathVariable(value = "id") Long id){
         return userService.findById(id);
     }
+    
+    @GetMapping(value = "/users/all")
+    public List<User> listUserAll(){
+        return userService.findAll();
+    }
 
 	@PreAuthorize("hasRole('ADMIN')")
     @PostMapping(value="/signup")

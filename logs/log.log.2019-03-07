@@ -1,0 +1,513 @@
+2019-03-07 15:55:14,483 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 15:55:14,505 +0200 [http-nio-8888-exec-4] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 15:55:18,244 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 15:55:18,246 +0200 [http-nio-8888-exec-5] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 15:55:18,265 +0200 [http-nio-8888-exec-5] ERROR (CategoryController.java:114) - Can't get category by id
+2019-03-07 16:03:07,985 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:03:08,001 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,363 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:15:05,383 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:15:05,519 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:15:05,521 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:15:05,539 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,541 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,583 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,588 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,609 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,611 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,629 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,631 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,655 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,668 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,684 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,685 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,702 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,704 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,725 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,727 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,746 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,748 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,774 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,775 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:15:05,788 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:15:05,790 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:40,813 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:40,989 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,069 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:41,070 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,087 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:41,088 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,108 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:41,111 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,130 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:41,136 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,157 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:41,169 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,214 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:41,219 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,299 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:41,303 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,326 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:41,328 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,346 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:41,350 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,419 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:17:41,421 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:17:41,491 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:17:41,496 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:18:54,867 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:54,890 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,026 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:55,028 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,053 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:55,055 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,103 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:55,109 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,133 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:55,138 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,177 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:55,183 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,203 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:55,205 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,237 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:55,240 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,266 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:55,279 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,303 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:55,304 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,321 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:18:55,323 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:18:55,367 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:18:55,368 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:19:36,093 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:144) - Start removing category by id: 59
+2019-03-07 16:19:36,145 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:150) - Can't removing category by id: 59
+2019-03-07 16:20:23,363 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:144) - Start removing category by id: 59
+2019-03-07 16:20:23,376 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:150) - Can't removing category by id: 59
+2019-03-07 16:21:28,341 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:144) - Start removing category by id: 49
+2019-03-07 16:21:28,353 +0200 [http-nio-8888-exec-6] INFO  (CategoryController.java:150) - Can't removing category by id: 49
+2019-03-07 16:21:39,203 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:144) - Start removing category by id: 49
+2019-03-07 16:21:39,209 +0200 [http-nio-8888-exec-7] INFO  (CategoryController.java:150) - Can't removing category by id: 49
+2019-03-07 16:22:11,449 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:144) - Start removing category by id: 76
+2019-03-07 16:22:11,503 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:147) - End removing category by id: 76
+2019-03-07 16:26:52,073 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:26:52,075 +0200 [http-nio-8888-exec-1] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:47,760 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:47,780 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:47,967 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:47,970 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:47,988 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:47,990 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:48,008 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:48,009 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:48,015 +0200 [main] ERROR (CategoryController.java:114) - Can't get category by id
+2019-03-07 16:27:48,105 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:48,107 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:48,119 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:48,121 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:48,135 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:48,136 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:48,155 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:48,157 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:48,176 +0200 [main] ERROR (CategoryController.java:114) - Can't get category by id
+2019-03-07 16:27:48,194 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:48,195 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:48,213 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:48,214 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:48,237 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:27:48,240 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:27:48,281 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:27:48,282 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:33:06,040 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,096 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,223 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,226 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,277 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,287 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,339 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,347 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,380 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,384 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,403 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,407 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,461 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,462 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,483 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,487 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,517 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,522 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,541 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,543 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,564 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:33:06,565 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:33:06,648 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:33:06,650 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:35:16,501 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,516 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,630 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,657 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,684 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,686 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,711 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,713 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,732 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,733 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,751 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,753 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,773 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,775 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,792 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,794 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,813 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,814 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,829 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,830 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,849 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:35:16,850 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:35:16,938 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:35:16,940 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:36:07,921 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:144) - Start removing category by id: 77
+2019-03-07 16:36:07,993 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:147) - End removing category by id: 77
+2019-03-07 16:36:56,776 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:56,789 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:56,955 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:56,957 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:56,980 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:56,984 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:57,006 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:57,007 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:57,023 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:57,024 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:57,039 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:57,041 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:57,057 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:57,078 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:57,092 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:57,094 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:57,111 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:57,112 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:57,127 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:57,128 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:57,142 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:36:57,143 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:36:57,200 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:36:57,202 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:38:01,988 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,098 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,216 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,219 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,241 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,243 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,263 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,264 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,279 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,280 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,296 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,297 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,313 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,314 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,349 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,351 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,370 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,371 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,388 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,405 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,420 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:38:02,421 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:38:02,458 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:38:02,480 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:40:46,546 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,568 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:46,741 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,747 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:46,768 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,770 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:46,791 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,793 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:46,809 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,810 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:46,827 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,829 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:46,848 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,849 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:46,867 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,868 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:46,892 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,893 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:46,915 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,917 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:46,948 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:40:46,967 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:40:47,016 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:40:47,018 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:41:56,965 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,011 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,106 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,107 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,125 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,127 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,152 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,154 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,171 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,173 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,192 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,195 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,213 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,214 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,315 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,319 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,339 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,342 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,356 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,357 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,370 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:41:57,374 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:41:57,428 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:41:57,428 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:44:01,435 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,450 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,643 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,646 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,702 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,703 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,718 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,746 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,777 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,780 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,797 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,798 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,855 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,857 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,873 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,877 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,902 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,903 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,918 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,919 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,937 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:44:01,939 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:44:01,992 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:44:02,016 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:46:20,669 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:20,685 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:20,826 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:20,830 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:20,944 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:20,945 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:20,964 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:20,965 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:20,982 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:20,988 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:21,062 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:21,064 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:21,087 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:21,089 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:21,122 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:21,124 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:21,143 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:21,145 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:21,203 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:21,205 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:21,220 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:21,222 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:21,273 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:46:21,274 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:46:54,119 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,265 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:54,351 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,354 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:54,372 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,374 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:54,394 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,396 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:54,423 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,424 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:54,442 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,446 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:54,472 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,476 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:54,533 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,534 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:54,554 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,555 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:54,571 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,572 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:46:54,586 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:46:54,589 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:19,735 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:19,789 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:19,984 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:19,986 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:20,005 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:20,012 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:20,035 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:20,036 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:20,050 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:20,052 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:20,066 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:20,068 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:20,084 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:20,085 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:20,150 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:20,151 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:20,167 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:20,168 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:20,182 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:20,182 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:20,196 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:48:20,197 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:48:20,247 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:48:20,248 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 16:51:33,092 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,106 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,258 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,269 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,292 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,293 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,315 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,316 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,333 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,334 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,408 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,412 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,432 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,434 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,454 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,455 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,472 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,474 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,490 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,491 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,506 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 16:51:33,507 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 16:51:33,560 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 16:51:33,560 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 17:06:34,953 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:34,991 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,103 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,105 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,122 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,123 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,138 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,139 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,154 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,155 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,171 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,172 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,198 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,200 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,214 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,216 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,231 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,232 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,248 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,249 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,265 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,267 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:06:35,320 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 17:06:35,321 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 17:06:35,380 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:06:35,381 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:16,997 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,022 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,138 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,139 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,156 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,157 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,178 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,180 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,195 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,196 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,212 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,214 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,231 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,232 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,248 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,249 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,270 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,272 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,292 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,299 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,317 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,324 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:08:17,368 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 17:08:17,369 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 17:08:17,417 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:08:17,417 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:55,956 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:55,969 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,202 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:56,204 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,219 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:56,220 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,234 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:56,235 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,254 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:56,257 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,274 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:56,275 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,289 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:56,290 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,309 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:56,319 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,358 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:56,359 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,373 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:56,374 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,388 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:10:56,389 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:10:56,431 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 17:10:56,432 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 17:10:56,484 +0200 [main] INFO  (CategoryController.java:144) - Start removing category by id: 90
+2019-03-07 17:10:56,502 +0200 [main] INFO  (CategoryController.java:147) - End removing category by id: 90
+2019-03-07 17:13:47,140 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,178 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,292 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,294 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,315 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,316 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,338 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,339 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,364 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,367 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,384 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,387 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,406 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,407 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,484 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,488 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,548 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,549 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,563 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,564 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,584 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:13:47,585 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:13:47,630 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 17:13:47,631 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 17:13:47,686 +0200 [main] INFO  (CategoryController.java:157) - Start removing category by id: 91
+2019-03-07 17:13:47,705 +0200 [main] INFO  (CategoryController.java:160) - End removing category by id: 91
+2019-03-07 17:16:38,829 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:38,848 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:38,968 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:38,970 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:38,991 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:38,992 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:39,014 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:39,016 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:39,038 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:39,039 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:39,053 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:39,055 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:39,081 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:39,083 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:39,097 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:39,098 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:39,114 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:39,115 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:39,129 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:39,130 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:39,204 +0200 [main] INFO  (CategoryController.java:109) - Start get category by id
+2019-03-07 17:16:39,205 +0200 [main] INFO  (CategoryController.java:111) - End get category by id
+2019-03-07 17:16:39,249 +0200 [main] INFO  (CategoryController.java:125) - Start inserting Category
+2019-03-07 17:16:39,250 +0200 [main] INFO  (CategoryController.java:127) - End inserting Category
+2019-03-07 17:16:39,334 +0200 [main] INFO  (CategoryController.java:157) - Start removing category by id: 92
+2019-03-07 17:16:39,382 +0200 [main] INFO  (CategoryController.java:160) - End removing category by id: 92

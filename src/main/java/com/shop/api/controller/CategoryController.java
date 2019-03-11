@@ -1,6 +1,8 @@
 package com.shop.api.controller;
 
 import java.util.Collection;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -43,11 +45,11 @@ public class CategoryController {
 	})
 	@ResponseBody
 	@RequestMapping(method = RequestMethod.GET)
-	public ResponseEntity<Collection<Category>> getCategories() throws EntityNotFoundException {
+	public ResponseEntity<List<Category>> getCategories() throws EntityNotFoundException {
 		logger.info("Start get all category");
 		try{
 			logger.info("End get all category");
-			return new ResponseEntity<>(categoryService.findAll(), HttpStatus.OK);
+			return new ResponseEntity<List<Category>>(categoryService.findAll(), HttpStatus.OK);
 		}catch(Exception ex){
 			logger.error("Can't get all category");
 			throw new EntityNotFoundException(Category.class, "", "Can't get all category");
@@ -109,7 +111,10 @@ public class CategoryController {
 		logger.info("Start get category by id");
 		try{
 			logger.info("End get category by id");
-			return new ResponseEntity<>(categoryService.findById(id), HttpStatus.OK);
+			Category category = categoryService.findById(id);
+			if(categoryService.findById(id) == null)
+				return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+			return new ResponseEntity<>(category, HttpStatus.OK);
 		}catch(Exception ex){
 			logger.error("Can't get category by id");
 			throw new EntityNotFoundException(Category.class, "id", Long.toString(id));
@@ -142,6 +147,22 @@ public class CategoryController {
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
 	public ResponseEntity<Void> deleteCategory(@PathVariable long id) throws EntityNotFoundException {
 		logger.info("Start removing category by id: " + id);
+		if(categoryService.findById(id) == null)
+			return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+		
+		try{
+			categoryService.delete(id);
+			logger.info("End removing category by id: " + id);
+			return new ResponseEntity<Void>(HttpStatus.OK);
+		}catch(Exception ex){
+			logger.info("Can't removing category by id: " + id);
+			throw new EntityNotFoundException(Category.class, "id", Long.toString(id));
+		}
+	}
+	
+	@RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
+	public ResponseEntity<Void> deleteCategoryJunit(@PathVariable long id) throws EntityNotFoundException {
+		logger.info("Start removing category by id: " + id);
 		try{
 			categoryService.delete(id);
 			logger.info("End removing category by id: " + id);
@@ -160,12 +181,15 @@ public class CategoryController {
 	public ResponseEntity<?> updateCategory(@RequestBody Category category) throws EntityNotFoundException, BadRequestException {
 		
 		if (Long.valueOf(category.getId()) == null || Long.valueOf(category.getId()) == 0) 
-			throw new BadRequestException(Category.class, "params", "missing category id");
+			throw new BadRequestException(Category.class, "params", "missing category id " + category.getId());
 		
+		if(!categoryService.existsById(Long.valueOf(category.getId())))
+			return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+				
 		logger.info("Start update Category");
 		try{
 			logger.info("End update Category");
-    		return new ResponseEntity<Category>(categoryService.save(category), HttpStatus.CREATED);
+    		return new ResponseEntity<Category>(categoryService.save(category), HttpStatus.OK);
     	}catch(Exception ex){
 		    ex.printStackTrace();
 		    logger.error("Can't update Category" + ex);
@@ -227,5 +251,34 @@ public class CategoryController {
 			throw new EntityNotFoundException(Category.class, "", "Can't get all active category");
 		}
 	}
+		
+	@ApiOperation(  value = "Get only all categories without authentication",
+			notes = "getCategoryWithNoAuth()")
+	@RequestMapping(value = "/no-auth/{id}", method = RequestMethod.GET)
+	public ResponseEntity<?> getCategoryWithNoAuth(@PathVariable long id) throws EntityNotFoundException {
+		logger.info("Start get category by id");
+		try{
+			logger.info("End get category by id");
+			return new ResponseEntity<>(categoryService.findById(id), HttpStatus.OK);
+		}catch(Exception ex){
+			logger.error("Can't get category by id");
+			throw new EntityNotFoundException(Category.class, "id", Long.toString(id));
+		}
+	}	
 	
+	@ApiOperation(  value = "Create category without authentication",
+			notes = "getCategoryWithNoAuth()")
+	@RequestMapping(value = "/junit", method = RequestMethod.POST)
+	public ResponseEntity<?> inserCategoryWithOutAuth(@RequestBody Category category) throws EntityNotFoundException, BadRequestException {
+		logger.info("Start inserting Category");
+		try{
+			logger.info("End inserting Category");
+    		return new ResponseEntity<Category>(categoryService.save(category), HttpStatus.CREATED);
+    	}catch(Exception ex){
+		    ex.printStackTrace();
+		    logger.error("Can't insert Category" + ex);
+			logger.fatal("Can't insert Category" + ex);
+			throw new BadRequestException(Category.class, "params", category.toString());
+		}
+	}
 }
