@@ -16,18 +16,26 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Class UserServiceImpl.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01
  */
-
 @Service(value = "userService")
 public class UserServiceImpl implements UserDetailsService, UserService {
 	
+	/** The user repository. */
 	@Autowired
 	private UserRepository userRepository;
 
+	/** The bcrypt encoder. */
 	@Autowired
 	private BCryptPasswordEncoder bcryptEncoder;
 
+	/* (non-Javadoc)
+	 * @see org.springframework.security.core.userdetails.UserDetailsService#loadUserByUsername(java.lang.String)
+	 */
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		User user = userRepository.findByUsername(username);
 		if(user == null){
@@ -36,6 +44,12 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 		return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), getAuthority(user));
 	}
 
+	/**
+	 * Gets the authority.
+	 *
+	 * @param the user
+	 * @return the authority
+	 */
 	private Set<SimpleGrantedAuthority> getAuthority(User user) {
         Set<SimpleGrantedAuthority> authorities = new HashSet<>();
 		user.getRoles().forEach(role -> {
@@ -46,27 +60,42 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 		//return Arrays.asList(new SimpleGrantedAuthority("ROLE_ADMIN"));
 	}
 
+	/* (non-Javadoc)
+	 * @see com.shop.api.service.UserService#findAll()
+	 */
 	public List<User> findAll() {
 		List<User> list = new ArrayList<>();
 		userRepository.findAll().iterator().forEachRemaining(list::add);
 		return list;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.shop.api.service.UserService#delete(long)
+	 */
 	@Override
 	public void delete(long id) {
 		userRepository.deleteById(id);
 	}
 
+	/* (non-Javadoc)
+	 * @see com.shop.api.service.UserService#findOne(java.lang.String)
+	 */
 	@Override
 	public User findOne(String username) {
 		return userRepository.findByUsername(username);
 	}
 
+	/* (non-Javadoc)
+	 * @see com.shop.api.service.UserService#findById(java.lang.Long)
+	 */
 	@Override
 	public User findById(Long id) {
 		return userRepository.findById(id).get();
 	}
 
+	/* (non-Javadoc)
+	 * @see com.shop.api.service.UserService#save(com.shop.api.model.UserDto)
+	 */
 	@Override
     public User save(UserDto user) {
 	    User newUser = new User();

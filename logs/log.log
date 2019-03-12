@@ -10,3 +10,61 @@
 2019-03-12 00:01:19,534 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:221) - End get all active product
 2019-03-12 00:01:19,628 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:219) - Start get all active product
 2019-03-12 00:01:19,630 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:221) - End get all active product
+2019-03-12 00:10:31,656 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:63) - Start get all active category only no auth
+2019-03-12 00:10:31,708 +0200 [http-nio-8888-exec-9] INFO  (CategoryController.java:65) - End get all active category only no auth
+2019-03-12 00:10:35,275 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:219) - Start get all active product
+2019-03-12 00:10:35,278 +0200 [http-nio-8888-exec-5] INFO  (ProductController.java:221) - End get all active product
+2019-03-12 00:10:35,436 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:219) - Start get all active product
+2019-03-12 00:10:35,444 +0200 [http-nio-8888-exec-4] INFO  (ProductController.java:221) - End get all active product
+2019-03-12 00:10:51,856 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:63) - Start get all active category only no auth
+2019-03-12 00:10:51,859 +0200 [http-nio-8888-exec-3] INFO  (CategoryController.java:65) - End get all active category only no auth
+2019-03-12 12:00:04,192 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,201 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,268 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,269 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,304 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,306 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,322 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,324 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,343 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,344 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,397 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,400 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,420 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,421 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,442 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,450 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,469 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,471 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,486 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,487 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,502 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,504 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,549 +0200 [main] INFO  (CategoryController.java:130) - Start inserting Category
+2019-03-12 12:00:04,550 +0200 [main] INFO  (CategoryController.java:132) - End inserting Category
+2019-03-12 12:00:04,614 +0200 [main] INFO  (CategoryController.java:165) - Start removing category by id: 35
+2019-03-12 12:00:04,634 +0200 [main] INFO  (CategoryController.java:168) - End removing category by id: 35
+2019-03-12 12:00:04,753 +0200 [main] INFO  (CategoryController.java:189) - Start update Category
+2019-03-12 12:00:04,754 +0200 [main] INFO  (CategoryController.java:191) - End update Category
+2019-03-12 12:00:04,760 +0200 [main] INFO  (CategoryController.java:149) - Start removing category by id: 1
+2019-03-12 12:00:04,766 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,766 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,771 +0200 [main] INFO  (CategoryController.java:111) - Start get category by id
+2019-03-12 12:00:04,772 +0200 [main] INFO  (CategoryController.java:113) - End get category by id
+2019-03-12 12:00:04,778 +0200 [main] INFO  (CategoryController.java:49) - Start get all category
+2019-03-12 12:00:04,778 +0200 [main] INFO  (CategoryController.java:51) - End get all category
+2019-03-12 12:00:04,783 +0200 [main] INFO  (CategoryController.java:149) - Start removing category by id: 1
+2019-03-12 12:00:04,797 +0200 [main] INFO  (CategoryController.java:130) - Start inserting Category
+2019-03-12 12:00:04,799 +0200 [main] INFO  (CategoryController.java:132) - End inserting Category
+2019-03-12 12:00:54,360 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:63) - Start get all active category only no auth
+2019-03-12 12:00:54,416 +0200 [http-nio-8888-exec-2] INFO  (CategoryController.java:65) - End get all active category only no auth
+2019-03-12 12:00:57,713 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:219) - Start get all active product
+2019-03-12 12:00:57,715 +0200 [http-nio-8888-exec-6] INFO  (ProductController.java:221) - End get all active product
+2019-03-12 12:00:57,793 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:219) - Start get all active product
+2019-03-12 12:00:57,796 +0200 [http-nio-8888-exec-7] INFO  (ProductController.java:221) - End get all active product
+2019-03-12 12:01:04,845 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:63) - Start get all active category only no auth
+2019-03-12 12:01:04,846 +0200 [http-nio-8888-exec-8] INFO  (CategoryController.java:65) - End get all active category only no auth
+2019-03-12 12:01:06,289 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:219) - Start get all active product
+2019-03-12 12:01:06,290 +0200 [http-nio-8888-exec-1] INFO  (ProductController.java:221) - End get all active product
+2019-03-12 12:01:06,363 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:219) - Start get all active product
+2019-03-12 12:01:06,365 +0200 [http-nio-8888-exec-2] INFO  (ProductController.java:221) - End get all active product

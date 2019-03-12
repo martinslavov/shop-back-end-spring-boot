@@ -6,10 +6,20 @@ import org.springframework.stereotype.Repository;
 import com.shop.api.model.User;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Interface UserRepository.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01 
  */
-
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+    
+    /**
+     * Find by username.
+     *
+     * @param the username
+     * @return the user
+     */
     User findByUsername(String username);
 }

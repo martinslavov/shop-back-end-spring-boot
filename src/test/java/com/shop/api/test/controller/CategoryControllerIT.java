@@ -32,9 +32,12 @@ import com.shop.api.test.utils.LifecycleLoggerWithTestInstance;
 import com.shop.api.test.utils.TestUtils;
 
 /**
- * Created by Martin Slavov on 11/03/2019.
+ * The Class CategoryControllerIT.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2019-03-13
  */
-
 @TestMethodOrder(OrderAnnotation.class)
 @DisplayName("CategoryController - Integration Test")
 @ExtendWith(SpringExtension.class)
@@ -42,14 +45,22 @@ import com.shop.api.test.utils.TestUtils;
 public class CategoryControllerIT extends BaseMvcTest
 						implements LifecycleLoggerWithTestInstance {
 	
+	/** The category service. */
 	@Mock
 	CategoryService categoryService;
 	
+	/** The Constant LOGGER. */
 	private static final Logger LOGGER = LoggerFactory.getLogger(CategoryControllerIT.class);
 	
+	/** The id. */
 	private static String id;
+	
+	/** The Constant CATEGORY. */
 	private static final String CATEGORY = "/api/categories";	
 	
+	/**
+	 * Start categories test.
+	 */
 	@Test
     @Disabled
     @Order(1)
@@ -59,16 +70,18 @@ public class CategoryControllerIT extends BaseMvcTest
         System.out.println("Start categories unit test");
     }
 	
+    /**
+     * Retrieve category.
+     *
+     * @throws RestClientException the rest client exception
+     * @throws Exception the exception
+     */
     @Test
     @Order(2)
     @RepeatedTest(10)
     @DisplayName("Get all categories")
 	public void retrieveCategory() throws RestClientException, Exception {
 		
-//			//Get date from database
-//			 ResponseEntity<String> response = getWithDataEntity(CATEGORY + "/" + id);		
-//			 String category = loadJson("json/retrieve-category-id-19.json").toString();	
-//			 JSONAssert.assertEquals(category, response.getBody(), false);
     	 int randomNum = ThreadLocalRandom.current().nextInt(1, 10);
     	 LOGGER.info("Get category with id: " + randomNum);
 		 try {
@@ -82,6 +95,9 @@ public class CategoryControllerIT extends BaseMvcTest
 		LOGGER.info("Retrieve category finish succesfully");
 	}
 		
+    /**
+     * Creates the category.
+     */
     @Test
     @Order(3)
     @DisplayName("Create category")
@@ -113,6 +129,9 @@ public class CategoryControllerIT extends BaseMvcTest
         }
     }
     
+    /**
+     * Delete category.
+     */
     @Test
     @Order(4)
     @DisplayName("Delete category")

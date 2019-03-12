@@ -21,26 +21,38 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Created by Martin Slavov on 11/03/2019.
+ * The Class CategoryServiceTest.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2019-03-13
  */
-
 @ExtendWith(SpringExtension.class)
 public class CategoryServiceTest {
 
+	/** The category service. */
 	@InjectMocks
 	CategoryServiceImpl categoryService;
 	
+	/** The category repository. */
 	@Mock
 	CategoryRepository categoryRepository;
 	
+	/** The Constant ID. */
 	private static final long ID = 1;
 
+	/**
+	 * When category is present then it should return true.
+	 */
 	@Test
 	public void whenCategoryIsPresentThenItShouldReturnTrue() {
 		when(categoryRepository.existsById(ID)).thenReturn(true);
 		assertTrue(categoryService.existsById(ID));
 	}
 
+	/**
+	 * When id is given then it should return category.
+	 */
 	@Test
 	public void whenIdIsGivenThenItShouldReturnCategory() {
 		Category mockCategory = mock(Category.class);
@@ -49,6 +61,9 @@ public class CategoryServiceTest {
 		assertEquals(mockCategory, categoryService.findById(ID));
 	}
 
+	/**
+	 * When category is present then it should return category list.
+	 */
 	@Test
 	public void whenCategoryIsPresentThenItShouldReturnCategoryList() {
 		List<Category> category = new ArrayList<>();
@@ -64,6 +79,9 @@ public class CategoryServiceTest {
 		assertEquals(retrievedmockCategories.get(0), category.get(0));
 	}
 
+	/**
+	 * When adding category then added category should return.
+	 */
 	@Test
 	public void whenAddingCategoryThenAddedCategoryShouldReturn() {
 		Category mockCategory = mock(Category.class);
@@ -75,6 +93,9 @@ public class CategoryServiceTest {
 		assertEquals(mockCategory, categoryService.save(mockCategory));
 	}
 
+	/**
+	 * When updating category then updated category should return.
+	 */
 	@Test
 	public void whenUpdatingCategoryThenUpdatedCategoryShouldReturn() {
 		Category mockCategory = mock(Category.class);
@@ -88,6 +109,9 @@ public class CategoryServiceTest {
 		assertEquals(mockCategory, categoryService.save(mockCategory));
 	}
 
+	/**
+	 * When deleting category delete method should invoked.
+	 */
 	@Test
 	public void whenDeletingCategoryDeleteMethodShouldInvoked() {
 		Category mockCategory = mock(Category.class);

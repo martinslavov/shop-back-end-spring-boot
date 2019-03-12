@@ -10,14 +10,21 @@ import java.io.IOException;
 import java.io.Serializable;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Class JwtAuthenticationEntryPoint.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01 
  */
-
 @Component
 public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint, Serializable {
 
+	/** The Constant serialVersionUID. */
 	static final long serialVersionUID = 1L;
 	
+    /* (non-Javadoc)
+     * @see org.springframework.security.web.AuthenticationEntryPoint#commence(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.springframework.security.core.AuthenticationException)
+     */
     @Override
     public void commence(HttpServletRequest request,
                          HttpServletResponse response,

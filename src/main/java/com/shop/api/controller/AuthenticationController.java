@@ -13,20 +13,32 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Class AuthenticationController.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01
  */
-
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/api/token")
 public class AuthenticationController {
 
+    /** The authentication manager. */
     @Autowired
     private AuthenticationManager authenticationManager;
 
+    /** The jwt token util. */
     @Autowired
     private TokenProvider jwtTokenUtil;
 
+    /**
+     * Generate token for login.
+     *
+     * @param loginUser
+     * @return the response entity
+     * @throws AuthenticationException the authentication exception
+     */
     @RequestMapping(value = "/generate-token", method = RequestMethod.POST)
     public ResponseEntity<?> register(@RequestBody LoginUser loginUser) throws AuthenticationException {
 

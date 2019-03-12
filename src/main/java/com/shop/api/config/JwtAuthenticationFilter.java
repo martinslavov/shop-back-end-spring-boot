@@ -21,9 +21,12 @@ import static com.shop.api.config.Constants.TOKEN_PREFIX;
 import java.io.IOException;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Class JwtAuthenticationFilter.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01 
  */
-
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     @Autowired

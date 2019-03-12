@@ -1,0 +1,8 @@
+com.shop.api
+com.shop.api.config
+com.shop.api.controller
+com.shop.api.exception
+com.shop.api.model
+com.shop.api.repository
+com.shop.api.service
+com.shop.api.service.impl

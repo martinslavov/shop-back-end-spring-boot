@@ -12,26 +12,58 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Interface ProductRepository.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01 
  */
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
 	
-	 List<Product> findAll();
-	 Product findById(long id); 
+	 /* (non-Javadoc)
+ 	 * @see org.springframework.data.jpa.repository.JpaRepository#findAll()
+ 	 */
+ 	List<Product> findAll();
 	 
-	 @Transactional
+ 	/**
+ 	 * Find by id.
+ 	 *
+ 	 * @param the id
+ 	 * @return the product
+ 	 */
+ 	Product findById(long id); 
+	 
+	 /**
+ 	 * Disable enable product.
+ 	 *
+ 	 * @param the id
+ 	 * @param the enabled
+ 	 * @return the int
+ 	 */
+ 	 @Transactional
 	 @Modifying
 	 @Query(nativeQuery = true, value = "UPDATE products c SET c.active = :enabled WHERE c.id = :id")
 	 int disableEnableProduct(@Param("id") long id, @Param("enabled") boolean enabled);
 
-	 @Query(nativeQuery = true, value = "SELECT * FROM products c \n" + 
+	 /**
+ 	 * Find all active product.
+ 	 *
+ 	 * @return the list
+ 	 */
+ 	@Query(nativeQuery = true, value = "SELECT * FROM products c \n" + 
 //			 "JOIN i18n_categories ON c.id = i18n_categories.text_id\n" + 
 //			 "JOIN i18n ON i18n_categories.i18n_id = i18n.id\n" + 
 			 "WHERE c.active = 1")
 	 List<Product> findAllActiveProduct();
 	 
-	 @Query(nativeQuery = true, value = "SELECT * FROM products p\n" + 
+	 /**
+ 	 * Find all active product by id.
+ 	 *
+ 	 * @param the id
+ 	 * @return the list
+ 	 */
+ 	@Query(nativeQuery = true, value = "SELECT * FROM products p\n" + 
 	 		"JOIN i18n_products ON p.id = i18n_products.text_id\n" + 
 	 		"JOIN i18n ON i18n_products.i18n_id = i18n.id\n" + 
 	 		"JOIN categories_products ON p.id = categories_products.product_id\n" + 
@@ -42,7 +74,13 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
 	 	   )
 	 List<Product> findAllActiveProductById(int id);
 	 
-	 @Query(nativeQuery = true, value = "SELECT * FROM products p\n" + 
+	 /**
+ 	 * Find all product by id.
+ 	 *
+ 	 * @param the id
+ 	 * @return the list
+ 	 */
+ 	@Query(nativeQuery = true, value = "SELECT * FROM products p\n" + 
 		 		"JOIN i18n_products ON p.id = i18n_products.text_id\n" + 
 		 		"JOIN i18n ON i18n_products.i18n_id = i18n.id\n" + 
 		 		"JOIN categories_products ON p.id = categories_products.product_id\n" + 
@@ -52,7 +90,13 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
 		 	   )
 	List<Product> findAllProductById(int id);
 	 
-	 @Query(nativeQuery = true, value = "SELECT * FROM products p\n" + 
+	 /**
+ 	 * Find product by name.
+ 	 *
+ 	 * @param the name
+ 	 * @return the product
+ 	 */
+ 	@Query(nativeQuery = true, value = "SELECT * FROM products p\n" + 
 	 		"	 JOIN i18n_products ON p.id = i18n_products.text_id\n" + 
 	 		"	 JOIN i18n ON i18n_products.i18n_id = i18n.id\n" + 
 	 		"	 WHERE i18n.title = ?1")

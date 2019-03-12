@@ -11,11 +11,17 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Class CORSFilter.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01 
  */
-
 public class CORSFilter implements Filter {
 
+	/* (non-Javadoc)
+	 * @see javax.servlet.Filter#doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain)
+	 */
 	public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
 		System.out.println("Filtering on...........................................................");
 		HttpServletResponse response = (HttpServletResponse) res;
@@ -28,8 +34,14 @@ public class CORSFilter implements Filter {
 		chain.doFilter(req, res);
 	}
 
+	/* (non-Javadoc)
+	 * @see javax.servlet.Filter#init(javax.servlet.FilterConfig)
+	 */
 	public void init(FilterConfig filterConfig) {}
 
+	/* (non-Javadoc)
+	 * @see javax.servlet.Filter#destroy()
+	 */
 	public void destroy() {}
 
 }

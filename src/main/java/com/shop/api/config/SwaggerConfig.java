@@ -13,11 +13,23 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * The Class SwaggerConfig.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01 
+ */
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
 	
-	 @Bean
+	 /**
+ 	 * Api.
+ 	 *
+ 	 * @return the docket
+ 	 */
+ 	@Bean
 	    public Docket api() {
 	        return new Docket(DocumentationType.SWAGGER_2)
 	                .select()
@@ -29,7 +41,12 @@ public class SwaggerConfig {
 	                .securitySchemes(Arrays.asList(apiKey()));
 	    }
 
-	    private ApiInfo apiInfo() {
+	    /**
+    	 * Api info.
+    	 *
+    	 * @return the api info
+    	 */
+    	private ApiInfo apiInfo() {
 	        return new ApiInfoBuilder()
 	                .title("REST API Document")
 	                .description("e-Shop Api")
@@ -38,34 +55,12 @@ public class SwaggerConfig {
 	                .build();
 	    }
 
-	    private ApiKey apiKey() {
-	        return new ApiKey("token", "Authorization", "header"); //`apiKey` is the name of the APIKey, `Authorization` is the key in the request header
+	    /**
+    	 * Api key.
+    	 *
+    	 * @return the api key
+    	 */
+    	private ApiKey apiKey() {
+	        return new ApiKey("token", "Authorization", "header");
 	    }
-	    
-//	    private SecurityContext securityContext() {
-//			return SecurityContext.builder()
-//					.securityReferences(defaultAuth())
-//					.forPaths(PathSelectors.regex("/api/v1.*"))
-//					.build();
-//	    }
-//	    
-//	    private List<SecurityReference> defaultAuth() {
-//	    	AuthorizationScope authorizationScope = new AuthorizationScope("global", "accessEverything");
-//	    	AuthorizationScope[] authorizationScopes = new AuthorizationScope[1];
-//	    	authorizationScopes[0] = authorizationScope;
-//	    	return Arrays.asList(new SecurityReference("apiKey", authorizationScopes));
-//	    }
-//	
-//	    @Bean
-//	    public SecurityConfiguration security() {
-//	    		return SecurityConfigurationBuilder.builder()
-//	    				.clientId("test-app-client-id")
-//	    				.clientSecret("test-app-client-secret")
-//	    				.realm("test-app-realm")
-//	    				.appName("test-app")
-//	    				.scopeSeparator(",")
-//	    				.additionalQueryStringParams(null)
-//	    				.useBasicAuthenticationWithAccessCodeGrant(false)
-//	    				.build();
-//	    }
 }

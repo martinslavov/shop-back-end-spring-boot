@@ -6,12 +6,18 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 /**
- * Created by Martin Slavov on 11/03/2019.
+ * The Class ApiApplicationTests.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2019-03-13
  */
-
 @ExtendWith(SpringExtension.class)
 public class ApiApplicationTests {
 
+	/**
+	 * Context loads.
+	 */
 	@Test
 	public void contextLoads() {
 	}

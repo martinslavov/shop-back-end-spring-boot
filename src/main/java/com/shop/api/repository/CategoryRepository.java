@@ -12,36 +12,76 @@ import com.shop.api.model.Category;
 import com.shop.api.model.CategoryOnly;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Interface CategoryRepository.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01 
  */
-
 @Repository
 public interface CategoryRepository extends JpaRepository<Category, Long> {
 	
-	 List<Category> findAll();
-	 Category findById(long id);
+	 /* (non-Javadoc)
+ 	 * @see org.springframework.data.jpa.repository.JpaRepository#findAll()
+ 	 */
+ 	List<Category> findAll();
 	 
-	 @Query("SELECT c FROM Category AS c")
+ 	/**
+ 	 * Find by id.
+ 	 *
+ 	 * @param the id
+ 	 * @return the category
+ 	 */
+ 	Category findById(long id);
+	 
+	 /**
+ 	 * Find all category only.
+ 	 *
+ 	 * @return the list
+ 	 */
+ 	@Query("SELECT c FROM Category AS c")
 	 List<CategoryOnly> findAllCategoryOnly();
 	
-	 @Query("SELECT c FROM Category AS c")
+	 /**
+ 	 * Find all category.
+ 	 *
+ 	 * @return the list
+ 	 */
+ 	@Query("SELECT c FROM Category AS c")
 	 List<Category> findAllCategory();
 	 
-	 @Query(nativeQuery = true, value = "SELECT * FROM categories c \n" + 
+	 /**
+ 	 * Find all active category.
+ 	 *
+ 	 * @return the list
+ 	 */
+ 	@Query(nativeQuery = true, value = "SELECT * FROM categories c \n" + 
 			 "JOIN i18n_categories ON c.id = i18n_categories.text_id\n" + 
 			 "JOIN i18n ON i18n_categories.i18n_id = i18n.id\n" + 
 			 "WHERE c.active = 1 AND \n" + 
 			 "i18n.locale = \"en\"")
 	 List<Category> findAllActiveCategory();
 
-	 @Transactional
+	 /**
+ 	 * Disable enable category.
+ 	 *
+ 	 * @param the id
+ 	 * @param the enabled
+ 	 * @return the int
+ 	 */
+ 	 @Transactional
 	 @Modifying
 	 @Query(nativeQuery = true, value = "UPDATE categories c SET c.active = :enabled WHERE c.id = :id")
-//	 @Query( value = "UPDATE Category c SET c.enabled = true WHERE c.id = 1" )
 	 int disableEnableCategory(@Param("id") long id, @Param("enabled") boolean enabled);
 	 
 	 
-	 @Query(nativeQuery = true, value = "SELECT * FROM categories c \n" + 
+	 /**
+ 	 * Find by name.
+ 	 *
+ 	 * @param the name
+ 	 * @return the category
+ 	 */
+ 	@Query(nativeQuery = true, value = "SELECT * FROM categories c \n" + 
 			 "JOIN i18n_categories ON c.id = i18n_categories.text_id\n" + 
 			 "JOIN i18n ON i18n_categories.i18n_id = i18n.id\n" + 
 			 "WHERE i18n.title = ?1")

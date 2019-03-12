@@ -25,23 +25,35 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.Authorization;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Class ProductController.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01
  */
-
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RequestMapping("/api/products")
 public class ProductController {
 	
+	/** The logger. */
 	private static Logger logger = Logger.getLogger("ProductController");
 
+	/** The product service. */
 	@Autowired
 	private ProductService productService;
 	
+	/** The category service. */
 	@Autowired
 	private CategoryService categoryService;
 		
-	@ApiOperation(value = "Get all products",
+	/**
+	 * Find the products.
+	 *
+	 * @return the response entity
+	 * @throws EntityNotFoundException the entity not found exception
+	 */
+	@ApiOperation(value = "Find all products",
 			  notes = "getProducts()",
 			  authorizations = { @Authorization(value="token") 
 	})
@@ -57,7 +69,13 @@ public class ProductController {
 		}	
 	}
 	
-	@ApiOperation(value = "Get all active products",
+	/**
+	 * Find all active product.
+	 *
+	 * @return the response entity
+	 * @throws EntityNotFoundException the entity not found exception
+	 */
+	@ApiOperation(value = "Find all active products",
 			  notes = "findAllActiveProduct()",
 			  authorizations = { @Authorization(value="token") 
 	})
@@ -73,12 +91,19 @@ public class ProductController {
 		}
 	}
 
-	@ApiOperation(value = "Get product by id",
+	/**
+	 * Find the product by id.
+	 *
+	 * @param id
+	 * @return the response entity
+	 * @throws EntityNotFoundException the entity not found exception
+	 */
+	@ApiOperation(value = "Find product by id",
 			  notes = "getProduct(@PathVariable long id)",
 			  authorizations = { @Authorization(value="token") 
 	})
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	public ResponseEntity<Product> getProduct(@PathVariable long id) throws EntityNotFoundException {
+	public ResponseEntity<Product> getProductById(@PathVariable long id) throws EntityNotFoundException {
 		logger.info("Start get product by id");
 		try{
 			logger.info("End get product by id");
@@ -89,6 +114,14 @@ public class ProductController {
 		}
 	}
 	
+	/**
+	 * Adds the product.
+	 *
+	 * @param the product
+	 * @param the category name
+	 * @return the response entity
+	 * @throws BadRequestException the bad request exception
+	 */
 	@ApiOperation(value = "Add product",
 			  notes = "addProduct(@RequestBody Product product, @RequestParam String categoryName)",
 			  authorizations = { @Authorization(value="token") 
@@ -99,7 +132,6 @@ public class ProductController {
 		try{
 			logger.info("End inserting Product");
 			
-			
 			String parseCategoryName = categoryName.replaceAll("-", " ").replaceAll("and", "&"); 
 			Product productSaved = productService.save(product);		
 			productSaved.getId();
@@ -108,7 +140,6 @@ public class ProductController {
 			Category category = categoryService.findByName(parseCategoryName);
 			category.getProduct().add(productSaved);
 			categoryService.save(category);
-			
 			
 			return new ResponseEntity<Product>(productSaved, HttpStatus.CREATED);
     	}catch(Exception ex){
@@ -119,6 +150,14 @@ public class ProductController {
 		}
 	}
 	
+	/**
+	 * Update product.
+	 *
+	 * @param the product
+	 * @param the category name
+	 * @return the response entity
+	 * @throws BadRequestException the bad request exception
+	 */
 	@ApiOperation(value = "Update product",
 			  notes = "updateProduct(@RequestBody Product product)",
 			  authorizations = { @Authorization(value="token") 
@@ -131,8 +170,6 @@ public class ProductController {
 		
 		logger.info("Start inserting Product");
 		try{
-			logger.info("End inserting Product");
-			
 			String parseCategoryName = categoryName.replaceAll("-", " ").replaceAll("and", "&"); 
 			Product productSaved = productService.save(product);		
 			productSaved.getId();
@@ -141,6 +178,7 @@ public class ProductController {
 			Category category = categoryService.findByName(parseCategoryName);
 			category.getProduct().add(productSaved);
 			categoryService.save(category);
+			logger.info("End inserting Product");
 			
 			return new ResponseEntity<Product>(productSaved, HttpStatus.OK); 
     	}catch(Exception ex){
@@ -151,6 +189,13 @@ public class ProductController {
 		}
 	}
 
+	/**
+	 * Delete product.
+	 *
+	 * @param the id
+	 * @return the response entity
+	 * @throws EntityNotFoundException the entity not found exception
+	 */
 	@ApiOperation(value = "Delete product by id",
 			  notes = "deleteProduct(@PathVariable long id)",
 			  authorizations = { @Authorization(value="token") 
@@ -169,7 +214,15 @@ public class ProductController {
 		}
 	}
 	
-	@ApiOperation(value = "Disable-Enable Product",
+	/**
+	 * Disable-enable product by category id.
+	 *
+	 * @param product the product
+	 * @return the int
+	 * @throws EntityNotFoundException the entity not found exception
+	 * @throws BadRequestException the bad request exception
+	 */
+	@ApiOperation(value = "Disable-enable product by category id",
 			  notes = "disableEnableProduct(@RequestBody Product product)",
 			  authorizations = { @Authorization(value="token") 
 	})
@@ -189,7 +242,14 @@ public class ProductController {
 		}
 	}
 	
-	@ApiOperation(value = "Get all the categories to which a product belongs",
+	/**
+	 * Find the product categories.
+	 *
+	 * @param  the id
+	 * @return the product categories
+	 * @throws EntityNotFoundException the entity not found exception
+	 */
+	@ApiOperation(value = "Find all the categories to which a product belongs",
 			  notes = "getProductCategories(@PathVariable long id)",
 			  authorizations = { @Authorization(value="token") 
 	})
@@ -207,45 +267,66 @@ public class ProductController {
 		}
 	}
 	
-	@ApiOperation(value = "Get all active products by category name",
-			  notes = "findByCategoryName(@PathVariable String categoryName)",
+	/**
+	 * Find products by category name.
+	 *
+	 * @param the category name
+	 * @return the response entity
+	 * @throws EntityNotFoundException the entity not found exception
+	 */
+	@ApiOperation(value = "Find products by category name.",
+			  notes = "findProductsByCategoryName(@PathVariable String categoryName)",
 			  authorizations = { @Authorization(value="token") 
 	})
 	@RequestMapping(value = "/category-name/{categoryName}", method = RequestMethod.GET)
-	public ResponseEntity<Collection<Product>> findByCategoryName(@PathVariable String categoryName) throws EntityNotFoundException {
+	public ResponseEntity<Collection<Product>> findProductsByCategoryName(@PathVariable String categoryName) throws EntityNotFoundException {
 		
 		Category category = categoryService.findByName(categoryName);
 
-		logger.info("Start get all active product");
+		logger.info("Start get all active products");
 		try{
-			logger.info("End get all active product");
+			logger.info("End get all active products");
 			return new ResponseEntity<>(productService.findAllActiveProductById((int)category.getId()), HttpStatus.OK);
 		}catch(Exception ex){
-			logger.error("Can't get all active product");
-			throw new EntityNotFoundException(Product.class, "", "Can't get all active product");
+			logger.error("Can't get all active products");
+			throw new EntityNotFoundException(Product.class, "", "Can't get all active products");
 		}
 	}
 	
+	/**
+	 * Find all products by category name.
+	 *
+	 * @param the category name
+	 * @return the response entity
+	 * @throws EntityNotFoundException the entity not found exception
+	 */
 	@ApiOperation(value = "Get all products by category name",
-			  notes = "findAllByCategoryName(@PathVariable String categoryName) ",
+			  notes = "findAllProductsByCategoryName(@PathVariable String categoryName) ",
 			  authorizations = { @Authorization(value="token") 
 	})
 	@RequestMapping(value = "/category-name/all/{categoryName}", method = RequestMethod.GET)
-	public ResponseEntity<Collection<Product>> findAllByCategoryName(@PathVariable String categoryName) throws EntityNotFoundException {
+	public ResponseEntity<Collection<Product>> findAllProductsByCategoryName(@PathVariable String categoryName) throws EntityNotFoundException {
 		
 		Category category = categoryService.findByName(categoryName);
 
-		logger.info("Start get all active product");
+		logger.info("Start get all active products");
 		try{
-			logger.info("End get all active product");
+			logger.info("End get all active products");
 			return new ResponseEntity<>(productService.findAllProductById((int)category.getId()), HttpStatus.OK);
 		}catch(Exception ex){
-			logger.error("Can't get all active product");
-			throw new EntityNotFoundException(Product.class, "", "Can't get all active product");
+			logger.error("Can't get all active products");
+			throw new EntityNotFoundException(Product.class, "", "Can't get all active products");
 		}
 	}
 	
-	@ApiOperation(value = "Get product by product name",
+	/**
+	 * Find by product name.
+	 *
+	 * @param the product name
+	 * @return the response entity
+	 * @throws EntityNotFoundException the entity not found exception
+	 */
+	@ApiOperation(value = "Find product by product name",
 			  notes = "findByProductName(@PathVariable String productName)",
 			  authorizations = { @Authorization(value="token") 
 	})
@@ -253,13 +334,13 @@ public class ProductController {
 	public ResponseEntity<Product> findByProductName(@PathVariable String productName) throws EntityNotFoundException {
 		
 
-		logger.info("Start get all active product");
+		logger.info("Start get all active products");
 		try{
-			logger.info("End get all active product");
+			logger.info("End get all active products");
 			return new ResponseEntity<Product>(productService.findProductByName(productName), HttpStatus.OK);
 		}catch(Exception ex){
-			logger.error("Can't get all active product");
-			throw new EntityNotFoundException(Product.class, "", "Can't get all active product");
+			logger.error("Can't get all active products");
+			throw new EntityNotFoundException(Product.class, "", "Can't get all active products");
 		}
 	}
 

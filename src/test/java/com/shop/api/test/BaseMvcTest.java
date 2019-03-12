@@ -34,36 +34,66 @@ import com.shop.api.model.LoginUser;
 import org.springframework.web.context.WebApplicationContext;
 
 /**
- * Created by Martin Slavov on 11/03/2019.
+ * The Class BaseMvcTest.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2019-03-13
  */
-
 public class BaseMvcTest {
 	
+    /** The Constant LOGGER. */
     private static final Logger LOGGER = LoggerFactory.getLogger(BaseMvcTest.class);
 
+    /** The Constant LOGIN. */
     protected static final String LOGIN = "/api/token/generate-token";
+    
+    /** The Constant TEST_USERNAME. */
     protected static final String TEST_USERNAME = "test.username";
+    
+    /** The Constant TEST_PASSWORD. */
     protected static final String TEST_PASSWORD = "test.password";
 
+    /** The mock mvc. */
     protected static MockMvc mockMvc;
+    
+    /** The conf props. */
     protected static Properties confProps;
+    
+    /** The token. */
     protected static String token;
     
+    /** The headers. */
     protected static HttpHeaders headers = new HttpHeaders();
+    
+    /** The rest template. */
     protected static TestRestTemplate restTemplate = new TestRestTemplate();
     
+    /** The аuthentication. */
     @Autowired
     public AuthenticationController аuthentication;
     
+    /** The wac. */
     @Autowired
     private WebApplicationContext wac;
 
+    /**
+     * Gets the wac.
+     *
+     * @return the wac
+     */
     protected WebApplicationContext getWac() {
         return wac;
     }
     
+    /**
+     * Sets the up.
+     *
+     * @throws Exception the exception
+     */
     @BeforeAll
 	public void setUp() throws Exception {
+    	LOGGER.info("Start setup");
 		configureProperties();
 		performLogin();
 		buildHeader();
@@ -72,19 +102,35 @@ public class BaseMvcTest {
 		mockMvc = MockMvcBuilders.webAppContextSetup(this.wac).dispatchOptions(true).build();
     }
     
+	/**
+	 * Builds the header.
+	 *
+	 * @throws Exception the exception
+	 */
 	public void buildHeader() throws Exception {
 		headers.add("Authorization", "Bearer "  + createHttpAuthenticationHeaderValue());
 		headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
 		headers.setContentType(MediaType.APPLICATION_JSON);
 	}
 	
+	/**
+	 * Creates the http authentication header value.
+	 *
+	 * @return the string
+	 * @throws Exception the exception
+	 */
 	private String createHttpAuthenticationHeaderValue() throws Exception {		
 		return token;
 	}
 
 	
+	/**
+	 * Perform login.
+	 *
+	 * @throws Exception the exception
+	 */
 	protected void performLogin() throws Exception {
-		mockMvc = standaloneSetup(this.аuthentication).build();// Standalone context
+		mockMvc = standaloneSetup(this.аuthentication).build();
 		
 		LoginUser loginUser = new LoginUser();
 		loginUser.setUsername(confProps.getProperty(TEST_USERNAME));
@@ -103,16 +149,26 @@ public class BaseMvcTest {
         System.out.println("Token: " + token);
 	}
 	
+    /**
+     * Configure properties.
+     */
     protected void configureProperties() {
         confProps = new Properties();
         try (InputStream is = this.getClass().getClassLoader().getResourceAsStream(
             "application-test.properties")) {
             confProps.load(is);
+            LOGGER.info("Finish loading test.properties");
         } catch (Exception e) {
             LOGGER.error("Error loading test.properties", e);
         }
     }
     
+    /**
+     * Load json.
+     *
+     * @param resourcePath the resource path
+     * @return the JSON object
+     */
     public JSONObject loadJson(String resourcePath) {
     	InputStream inputStream = null;
     	JSONObject json = null;
@@ -141,6 +197,14 @@ public class BaseMvcTest {
         return json;
     }
 
+    /**
+     * Post with data.
+     *
+     * @param url the url
+     * @param body the body
+     * @return the mock http servlet request builder
+     * @throws JsonProcessingException the json processing exception
+     */
     protected MockHttpServletRequestBuilder postWithData(String url, Object body)
             throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
@@ -170,7 +234,14 @@ public class BaseMvcTest {
 //		return response;
 //    }
     
-    protected MockHttpServletRequestBuilder getWithToken(String url)
+    /**
+ * Gets the with token.
+ *
+ * @param url the url
+ * @return the with token
+ * @throws JsonProcessingException the json processing exception
+ */
+protected MockHttpServletRequestBuilder getWithToken(String url)
             throws JsonProcessingException {
     	
     	MockHttpServletRequestBuilder builder = MockMvcRequestBuilders.get(url)
@@ -180,6 +251,14 @@ public class BaseMvcTest {
          return builder;
     }
     
+    /**
+     * Post with data and token.
+     *
+     * @param url the url
+     * @param content the content
+     * @return the mock http servlet request builder
+     * @throws JsonProcessingException the json processing exception
+     */
     protected MockHttpServletRequestBuilder postWithDataAndToken(String url, String content)
             throws JsonProcessingException {
     	
@@ -191,6 +270,13 @@ public class BaseMvcTest {
         		.content(contentString);
     }
     
+    /**
+     * Delete with data and token.
+     *
+     * @param url the url
+     * @return the mock http servlet request builder
+     * @throws JsonProcessingException the json processing exception
+     */
     protected MockHttpServletRequestBuilder deleteWithDataAndToken(String url)
             throws JsonProcessingException {  	
     	

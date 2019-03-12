@@ -24,9 +24,12 @@ import static org.springframework.http.HttpStatus.BAD_REQUEST;
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Class RestExceptionHandler.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01 
  */
-
 @Order(Ordered.HIGHEST_PRECEDENCE)
 @ControllerAdvice
 @Slf4j
@@ -158,6 +161,9 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
 
     /**
      * Handle javax.persistence.EntityNotFoundException
+     *
+     * @param ex the ex
+     * @return the response entity
      */
     @ExceptionHandler(javax.persistence.EntityNotFoundException.class)
     protected ResponseEntity<Object> handleEntityNotFound(javax.persistence.EntityNotFoundException ex) {
@@ -168,6 +174,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
      * Handle DataIntegrityViolationException, inspects the cause for different DB causes.
      *
      * @param ex the DataIntegrityViolationException
+     * @param request the request
      * @return the ApiError object
      */
     @ExceptionHandler(DataIntegrityViolationException.class)
@@ -183,6 +190,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
      * Handle Exception, handle generic Exception.class
      *
      * @param ex the Exception
+     * @param request the request
      * @return the ApiError object
      */
     @ExceptionHandler(MethodArgumentTypeMismatchException.class)
@@ -194,14 +202,15 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
         return buildResponseEntity(apiError);
     }
 
-
+    /**
+     * Builds the response entity.
+     *
+     * @param apiError the api error
+     * @return the response entity
+     */
     private ResponseEntity<Object> buildResponseEntity(ApiError apiError) {
         return new ResponseEntity<Object>(apiError, apiError.getStatus());
     }
-    
-
-    
-
     
     /**
      * Handles EntityNotFoundException. Created to encapsulate errors with more detail than javax.persistence.EntityNotFoundException.

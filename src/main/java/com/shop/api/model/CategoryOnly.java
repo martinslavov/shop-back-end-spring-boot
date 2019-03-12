@@ -3,12 +3,39 @@ package com.shop.api.model;
 import java.util.Map;
 
 /**
- * Created by Martin Slavov on 01/08/2018.
+ * The Interface CategoryOnly.
+ *
+ * @author  Martin Slavov
+ * @version 1.0
+ * @since   2018-08-01
  */
-
 public interface CategoryOnly {
-	  long getId();
-	  int getCategoryId();
-	  Boolean getEnabled();
-	  Map<String, LocalizedTextEntity> getText();
+	  
+  	/**
+  	 * Gets the id.
+  	 *
+  	 * @return the id
+  	 */
+  	long getId();
+	  
+  	/**
+  	 * Gets the category id.
+  	 *
+  	 * @return the category id
+  	 */
+  	int getCategoryId();
+	  
+  	/**
+  	 * Gets the enabled.
+  	 *
+  	 * @return the enabled
+  	 */
+  	Boolean getEnabled();
+	  
+  	/**
+  	 * Gets the text.
+  	 *
+  	 * @return the text
+  	 */
+  	Map<String, LocalizedTextEntity> getText();
 }
