@@ -5,8 +5,8 @@
 This project demonstrates a back-end of e-commerce application. This project was generated with [Spring Boot](https://spring.io/projects/spring-boot).
 
 ## Prerequisites
-- JDK 1.8+
-- Maven 3.5+
+- JDK 11+
+- Maven 3.6+
 - MySQL 8+
 
 ## Stack
